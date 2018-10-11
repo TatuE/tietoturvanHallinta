@@ -15,9 +15,14 @@ Toisessa vaiheessa etsimme ja tutkimme mahdollisia haavoittuvuuksia varmenteiden
 Harjoitustyömme keskittyy nimenomaan selainyhteyden varmenteisiin. Emme tässä yhteydessä tutki viestiyhteyksien tai muun tiedonsiirron salausta, vaan kartoitamme ratkaisuja, joilla parannetaan yrityksen verkkopalveluiden tietoturvaa ja käytettävyyttä.
 
 ## Vaihe 1: Tutkimus
+## kaikille ryhmän jäsenille tehtäväksi tutkia PKI:a
+## Ryhmän jäsenet tutkivat määrättyä aihetta yksitellen. 
 ### GPG
-
+###	jussi
+###	Tatu
 ### x509
+###	Saku
+###	Eino
 
 ## Vaihe 2: Käytännön testaus
 ### Välimieshyökkäykset
