@@ -6,7 +6,17 @@
 ### Projektin aihe
 Harjoitustyömme aihe on vertailla eri varmenteita, tutkia niiden käyttöä, hyötyjä sekä mahdollisia haittoja. Harjoitustyön tarkoitus olisi ymmärtää varmenteiden käyttöä, tietoturvahallinnan näkökannasta.
 
-### Projektin toteutus
+### Projektin vaiheistus
 Harjoitustyö olisi toteutukseltaan kaksivaiheinen, joisa ensimmäisessä tutkimme teoriapuolta varmenteista, sekä niiden eroista. Päätarkoituksena tässä vaiheessa on pystyä hahmottamaan varmenteiden rakennetta, sekä niiden teknistä käyttötarkoitusta.
 
 Toisessa vaiheessa etsimme ja tutkimme mahdollisia haavoittuvuuksia varmenteiden käytössä, niiden väärinkäyttöä sekä sen ehkäisemistä. Lopputuloksena on tarkoitus muodostaa näkemys siitä, miten varmenteiden käytön turvallisuutta voisi parantaa yrityskäytössä yleisellä tasolla, sekä minkä varmenteen käyttö soveltuu parhaiten yrityskäyttöön.
+
+## Vaihe 1: Tutkimus
+### GPG
+
+### x509
+
+## Vaihe 2: Käytännön testaus
+### Välimieshyökkäykset
+
+### Sertifikaatin blacklistaus
