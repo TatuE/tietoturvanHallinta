@@ -1,6 +1,6 @@
 ## Suojatut yhteydet ja varmenteet
 
-**Harjoitustyönaihe**  
+**Harjoitustyön aihe**  
 Harjoitustyömme aihe on vertailla eri varmenteita, tutkia niiden käyttöä, hyötyjä sekä mahdollisia haittoja. Harjoitustyön tarkoitus olisi ymmärtää varmenteiden käyttöä, tietoturvahallinnan näkökannasta.
 
 Harjoitustyö olisi toteutukseltaan kaksi vaiheinen. Ensimmäisessä vaiheessa projektiryhmä tutkii teoria puolta varmenteista, sekä niiden eroista. Päätarkoituksena on pystyä hahmottamaan varmenteiden rakennetta, sekä niiden teknistä käyttötarkoitusta.
