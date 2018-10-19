@@ -28,6 +28,8 @@ GPG:ssä on vuosien varrella ollut muutamia vakavia haavoittuvuuksia, jotka ovat
 *Saku, Eino*
 
 ## Vaihe 2: Käytännön testaus
-### Välimieshyökkäykset
-
-### Sertifikaatin blacklistaus
+* Salausavaimen murtaminen (lyhyesti)
+* Välimieshyökkäykset
+* Sertifikaatin blacklistaus
+* Sertifikaattien väärentäminen
+* Ylemmän tason sertifikaatin käyttäminen
