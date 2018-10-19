@@ -7,7 +7,7 @@ https://wiki.tut.fi/Tietoturva/X509,Varmennestandardi(2-A)
 https://en.wikipedia.org/wiki/X.509  
 
 ### OCSP
-https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol
+https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol  
 https://tools.ietf.org/html/rfc6960
 
 ## PKI  
