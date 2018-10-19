@@ -1,5 +1,5 @@
 ## GPG
-https://www.linux.fi/wiki/GnuPG
+https://www.linux.fi/wiki/GnuPG  
 https://gnupg.org/faq/gnupg-faq.html
 
 ## X509  
