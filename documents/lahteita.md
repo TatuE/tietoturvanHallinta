@@ -1,13 +1,13 @@
 ## GPG
 https://www.linux.fi/wiki/GnuPG  
 https://gnupg.org/faq/gnupg-faq.html  
+https://thehackernews.com/2018/06/gnupg-encryption-signature.html  
 https://devhints.io/gnupg (testaukseen)  
 
 ## X509  
 https://wiki.tut.fi/Tietoturva/X509,Varmennestandardi(2-A)  
 https://en.wikipedia.org/wiki/X.509  
 https://www.rfc-editor.org/rfc/pdfrfc/rfc5280.txt.pdf  
-
 
 ### OCSP
 https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol  
