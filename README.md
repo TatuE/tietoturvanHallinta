@@ -18,8 +18,15 @@ Harjoitustyömme keskittyy nimenomaan selainyhteyden varmenteisiin. Emme tässä
 ## kaikille ryhmän jäsenille tehtäväksi tutkia PKI:a
 ## Ryhmän jäsenet tutkivat määrättyä aihetta yksitellen. 
 ### GPG
-###	jussi
-###	Tatu
+*Jussi, Tatu*
+#### Perustietoa GPG:stä
+GPG, eli GNU Privacy Guard, on vuonna 1999 julkaistu GPL-lisenssin mukainen versio aiemmasta PGP-salausohjelmistosta, tai tarkemmin sen avoimen lähdekoodin versiosta OpenPGP:stä. Vuonna 1991 julkaistu PGP (Pretty Good Privacy) oli ensimmäisiä laajalti käytettyjä verkon salausmenetelmiä.
+
+GPG:stä ylläpidetään kahta versiota, modernia (uusin versio 2.2) sekä klassista (uusin versio 1.4), jotka eroavat toisiltaan ominaisuuksien määrässä ja näin ollen alustalta vaadituissa tehoissa. Klassinen versio soveltuu edelleen hyvin käytettäväksi sulautetuissa järjestelmissä tai vanhemmilla alustoilla. Syyskuussa 2017 julkaistun modernin haaran versio 2.2 toi mukanaan mm. elliptisten käyrien salausmenetelmiä, jotka soveltuvat hyvin ympäristöihin, joissa laskentatehoa on saatavilla rajallisesti ja toiminnan nopeus on tärkeää (maksukorttien salaussirut, sulautetut järjestelmät).
+
+GPG:n modernissa versiossa on saatavilla API, joka mahdollistaa monien GPG:n toimintojen lisäämisen helposti muihin sovelluksiin.
+#### Merkittävät haavoittuvuudet
+GPG:ssä on vuosien varrella ollut muutamia vakavia haavoittuvuuksia, jotka ovat mahdollistaneet suojauksen murtamisen tai avainten väärinkäytön.
 ### x509
 ###	Saku
 ###	Eino
