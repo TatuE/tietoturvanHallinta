@@ -5,6 +5,8 @@ https://gnupg.org/faq/gnupg-faq.html
 ## X509  
 https://wiki.tut.fi/Tietoturva/X509,Varmennestandardi(2-A)  
 https://en.wikipedia.org/wiki/X.509  
+https://www.rfc-editor.org/rfc/pdfrfc/rfc5280.txt.pdf  
+
 
 ### OCSP
 https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol  
