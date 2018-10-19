@@ -1,6 +1,7 @@
 ## GPG
 https://www.linux.fi/wiki/GnuPG  
-https://gnupg.org/faq/gnupg-faq.html
+https://gnupg.org/faq/gnupg-faq.html  
+https://devhints.io/gnupg (testaukseen)  
 
 ## X509  
 https://wiki.tut.fi/Tietoturva/X509,Varmennestandardi(2-A)  
