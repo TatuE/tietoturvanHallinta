@@ -27,9 +27,12 @@ GPG:ssä on vuosien varrella ollut muutamia vakavia haavoittuvuuksia, jotka ovat
 ### x509
 *Saku, Eino*
 
-## Vaihe 2: Käytännön testaus
+### Ongelmakohtien tunnistaminen
+* Sertifikaattien vanhentuminen
 * Salausavaimen murtaminen (lyhyesti)
 * Välimieshyökkäykset
 * Sertifikaatin blacklistaus
 * Sertifikaattien väärentäminen
 * Ylemmän tason sertifikaatin käyttäminen
+
+## Vaihe 2: Käytännön testaus
