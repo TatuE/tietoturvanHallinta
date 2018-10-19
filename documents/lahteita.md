@@ -16,5 +16,5 @@ https://en.wikipedia.org/wiki/Public_key_infrastructure
 https://www.centero.fi/blogi/pki-for-dummies/
 
 ## Muuta
-https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-817.pdf
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-817.pdf  
 http://compsec.comp.nus.edu.sg/papers/AuthScan-NDSS13.pdf
