@@ -17,4 +17,5 @@ https://www.centero.fi/blogi/pki-for-dummies/
 
 ## Muuta
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-817.pdf  
-http://compsec.comp.nus.edu.sg/papers/AuthScan-NDSS13.pdf
+http://compsec.comp.nus.edu.sg/papers/AuthScan-NDSS13.pdf  
+https://www.betterbuys.com/estimating-password-cracking-times/  
