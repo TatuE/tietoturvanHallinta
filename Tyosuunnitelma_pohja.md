@@ -15,7 +15,16 @@
 	Projektin ensimmäissä vaiheessa pyritään selvittämään varmenteiden käytön ongelmakohdat. Tämän kautta pyritään ymmärtämään onko 
 	ongelma ehkäistävissä sekä onko sillä mahdollisia haavoittuvuuksia, jotka mahdollistavat sen hyväksikäytön.
 
-	Projektin toisessa vaiheessa on tarkoitus testata ensimäisessä vaiheessa löytyneitä ongelmakohtia sekä pyrkiä hyväksikäyttämään niitä.
+	Projektin toisessa vaiheessa on tarkoitus testata ensimäisessä vaiheessa löytyneitä ongelmakohtia sekä pyrkiä hyväksikäyttämään tai 
+	ehkäisemään niitä.
+	Projektin alussa suunnitellut alustavat testit, joita on tarkoitus suorittaa toisessa vaiheessa:
+
+	- Varmenteen blacklistaus ()
+	- Välimieshyökkäys keinotekoisella varmenteella
+	
+	Toisessa vaiheessa suoritettavat testit määräytyvät ensimmäisessä vaiheessa esiin tulleisiin tietoihin, joten alustavasti suunnitellut 
+	testit tarkentuvat tai muuttuvat sen perusteella. Tarkoitus on ottaa mukaan myös testejä joita ei projektin alussa vielä hahmotettu 
+	käytettävän. 
 
 	Projektin Lopputuloksena on tarkoitus kehittää ohjeitus, jota voidaan soveltaa yrityksen näkökannasta. 
 	Projektin loppuraportissa tullaan käsittelemään miten tutkimuksessa esiin tulleet tulokset on otettu huomioon ohjeistuksessa.
