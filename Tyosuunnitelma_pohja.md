@@ -85,7 +85,6 @@ Vaihe 1
 
 |Tehtävät|Työmäärät|Lopputulokset|  
 |--------|---------|-------------|  
-	
 |Public key infrastructure tutkiminen|4 tuntia|parempi tietämys PKI:a|
 |Käytettävien salakirjoitusmenetelmien tutkiminen (PGP, X.509)|4 tuntia|Parempi ymmärrys käytettävistä salakirjoitusmenetelmistä|
 |Web of Trust tutkiminen|4 tuntia|parempi tietämys WOT:a|
