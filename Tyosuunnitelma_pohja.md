@@ -82,18 +82,20 @@
 7. Tehtävät, työmäärät ja lopputulokset
 
 Vaihe 1
-
-	Public key infrastructure tutkiminen | 4 tuntia | parempi tietämys PKI:a
+	|Tehtävät|Työmäärät|Lopputulokset|
+	|--------|---------|-------------|
 	
-	Käytettävien salakirjoitusmenetelmien tutkiminen (PGP, X.509) | 4 tuntia | Parempi ymmärrys käytettävistä salakirjoitusmenetelmistä
+	| Public key infrastructure tutkiminen | 4 tuntia | parempi tietämys PKI:a |
+	
+	| Käytettävien salakirjoitusmenetelmien tutkiminen (PGP, X.509) | 4 tuntia | Parempi ymmärrys käytettävistä 			salakirjoitusmenetelmistä |
 
-	Web of Trust tutkiminen | 4 tuntia | parempi tietämys WOT:a
+	| Web of Trust tutkiminen | 4 tuntia | parempi tietämys WOT:a |
 
-	Certificate authorities tutkiminen | 4 tuntia | parempi tietämys CA:a
+	| Certificate authorities tutkiminen | 4 tuntia | parempi tietämys CA:a |
 
-	Kahden varmenne menetelmän vertailu, haitat sekä hyödyt
+	| Kahden varmenne menetelmän vertailu, haitat sekä hyödyt|||
 
-	Ongelmakohtien tunnistaminen varmenne menetelmistä
+	| Ongelmakohtien tunnistaminen varmenne menetelmistä |||
 
 Vaihe 2	
 	
