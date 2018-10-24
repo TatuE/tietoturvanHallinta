@@ -1,7 +1,7 @@
 
 # Työsuunnitelma
 
-## 1. Tavoitteet ja lopputulokset
+1. Tavoitteet ja lopputulokset
 	
 	Projektin tavoite on tutkia verkkoselaimissa käytettäviä eri varmenteita. Niiden hyötyjä, mahdollisia haittoja sekä haavoittuvuuksia.
 	
@@ -29,13 +29,13 @@
 	Projektin Lopputuloksena on tarkoitus kehittää ohjeitus, jota voidaan soveltaa yrityksen näkökannasta. 
 	Projektin loppuraportissa tullaan käsittelemään miten tutkimuksessa esiin tulleet tulokset on otettu huomioon ohjeistuksessa.
 			
-## 2. Tehtävän rajaus
+2. Tehtävän rajaus
 	
 	Projektin ei ole tarkoitus tutkia tai testava yritysten itse luomia varmenteita, tai varmenteita jotka eivät kuulu 
 	public key infrastructure (PKI) piiriin. Projektin tarkoitus on tutkia ja testata vain varmenteita joita käytetään 
 	verkkoselainpohjaisissa ratkaisuissa.  
 	
-## 3. Riskit ja niihin varautuminen
+3. Riskit ja niihin varautuminen
 	
 	Koska projektissa on monta liikkuva osaa, on näiden osalta myös useampia riskejä jotka uhkaavat projektin onnistunutta loppuun 
 	saattamista. 
@@ -52,17 +52,17 @@
 	Koska varmenteiden käyttö tietoturvaratkaisuissa on yleistä, tulee tutkiminen rajata vain projektin tavoitteiden mukaisesti. Muuten on 
 	vaarana, että projektin tutkiminen eksyy tavoitteestaan, mikä johtaa turhaan työaikaan.
 	
-## 4. Työryhmä
+4. Työryhmä
 	Työryhmän jäsenet:
 		Tatu Erkinjuntti
 		Jussi Isosomppi
 		Eino Kupias
 		Saku Kähäri	
 		
-## 5. Työympäristö
+5. Työympäristö
 	Projekti tullaan pääsääntöisesti suorittamaan Haaga-Helian korkeakoululla, 
 	
-## 6. Aikataulu
+6. Aikataulu
 
 	vko 43	Teoria tutkiminen
 
@@ -80,9 +80,9 @@
 
 	vko 50	Projektin loppuraportin esitteleminen.
 	
-## 7. Tehtävät, työmäärät ja lopputulokset
+7. Tehtävät, työmäärät ja lopputulokset
 
-## 8. Dokumentointi- ja versionhallintamenettelyt
+8. Dokumentointi- ja versionhallintamenettelyt
 
 	Kaikki projektiin liittyvä dokumentointi tallenetaan, sekä jaetaan käyttäen projektin omaa Git repository:a. Tämä ylläpitää myös 
 	versionhallinan projektin dokumenteista.
