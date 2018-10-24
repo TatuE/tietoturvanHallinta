@@ -81,7 +81,8 @@
 	
 7. Tehtävät, työmäärät ja lopputulokset
 
-Vaihe 1
+Vaihe 1  
+
 	|Tehtävät|Työmäärät|Lopputulokset|  
 	|--------|---------|-------------|  
 	
