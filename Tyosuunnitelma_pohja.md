@@ -11,8 +11,7 @@
 	Projekti keskittyy kahden eri menetelmän tutkimiseen jotka kuuluvat public key infrastructure (PKI) piiriin,
 	näitä on certificate authorities (CA) sekä Web of Trust (WoT).
 	Näiden osalta tulee myös tutkia varmenteissa käytettäviä salakirjoitusmenetelmiä, joita on pääasiallisesti X.509 sekä PGP.
-
-	Projektin ensimmäissä vaiheessa pyritään selvittämään varmenteiden käytön ongelmakohdat. Tämän kautta pyritään ymmärtämään onko 
+	Lisäksi  pyritään selvittämään varmenteiden käytön ongelmakohdat. Tämän kautta pyritään ymmärtämään onko 
 	ongelma ehkäistävissä sekä onko sillä mahdollisia haavoittuvuuksia, jotka mahdollistavat sen hyväksikäytön.
 
 	Projektin toisessa vaiheessa on tarkoitus testata ensimäisessä vaiheessa löytyneitä ongelmakohtia sekä pyrkiä hyväksikäyttämään tai 
