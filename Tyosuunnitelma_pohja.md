@@ -85,16 +85,23 @@ Vaihe 1
 
 |Tehtävät|Työmäärät|Lopputulokset|  
 |--------|---------|-------------|  
-|Public key infrastructure tutkiminen|4 tuntia|parempi tietämys PKI:a|
-|Käytettävien salakirjoitusmenetelmien tutkiminen (PGP, X.509)|4 tuntia|Parempi ymmärrys käytettävistä salakirjoitusmenetelmistä|
-|Web of Trust tutkiminen|4 tuntia|parempi tietämys WOT:a|
-|Certificate authorities tutkiminen|4 tuntia|parempi tietämys CA:a| 
-|Kahden varmenne menetelmän vertailu, haitat sekä hyödyt|||
-|Ongelmakohtien tunnistaminen varmenne menetelmistä|||
+|Public key infrastructure tutkiminen|10 tuntia|parempi tietämys PKI:a|
+|Käytettävien salakirjoitusmenetelmien tutkiminen (PGP, X.509)|10  tuntia|Parempi ymmärrys käytettävistä salakirjoitusmenetelmistä|
+|Web of Trust tutkiminen|10 tuntia|parempi tietämys WOT:a|
+|Certificate authorities tutkiminen|10 tuntia|parempi tietämys CA:a| 
+|Kahden varmenne menetelmän vertailu, haitat sekä hyödyt|15 tuntia| varmennementelmian haitat sekä hyödyt selvitetty|
+|Ongelmakohtien tunnistaminen varmenne menetelmistä|20 tuntia| Varmenteiden ongelmakohdat tunnistettu|
 
 Vaihe 2	
-	
-		
+Alustavasti toiseen vaiheeseen suunnitellut tehtävät:
+
+Suoritettaviena testien suunittelu | 25 tuntia | valmis testi suunnitelma
+
+Testien toteutus | 50 tuntia | valitut testit suoritettu	
+
+Oheistuksen laatiminen	| 12.5 tuntia | Valmis ohjeitus
+
+loppuraportin laatiminen | 12.5 tuntia	| valmis loppuraportti		
 
 8. Dokumentointi- ja versionhallintamenettelyt
 
