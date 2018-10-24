@@ -19,7 +19,7 @@
 	ehkäisemään niitä.
 	Projektin alussa suunnitellut alustavat testit, joita on tarkoitus suorittaa toisessa vaiheessa:
 
-	- Varmenteen blacklistaus ()
+	- Varmenteen blacklistaus
 	- Välimieshyökkäys keinotekoisella varmenteella
 	
 	Toisessa vaiheessa suoritettavat testit määräytyvät ensimmäisessä vaiheessa esiin tulleisiin tietoihin, joten alustavasti suunnitellut 
