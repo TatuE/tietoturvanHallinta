@@ -16,7 +16,9 @@ https://tools.ietf.org/html/rfc6960
 ## PKI  
 https://www.youtube.com/watch?v=5OqgYSXWYQM  
 https://en.wikipedia.org/wiki/Public_key_infrastructure  
-https://www.centero.fi/blogi/pki-for-dummies/
+https://www.centero.fi/blogi/pki-for-dummies/  
+https://www.entrustdatacard.com/pages/what-is-pki  
+
 
 ## Muuta
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-817.pdf  
