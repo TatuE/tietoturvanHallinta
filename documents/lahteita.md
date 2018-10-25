@@ -18,6 +18,7 @@ https://www.youtube.com/watch?v=5OqgYSXWYQM
 https://en.wikipedia.org/wiki/Public_key_infrastructure  
 https://www.centero.fi/blogi/pki-for-dummies/  
 https://www.entrustdatacard.com/pages/what-is-pki  
+http://www.theseus.fi/bitstream/handle/10024/26659/ArtoPentikainenPKI.pdf?sequence=1&isAllowed=y
 
 
 ## Muuta
