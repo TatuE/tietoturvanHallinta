@@ -27,3 +27,4 @@ https://www.feistyduck.com/ssl-tls-and-pki-history/
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-817.pdf  
 http://compsec.comp.nus.edu.sg/papers/AuthScan-NDSS13.pdf  
 https://www.betterbuys.com/estimating-password-cracking-times/ (salauksen murtamisen kesto, kehitys vuosien aikana)  
+https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
