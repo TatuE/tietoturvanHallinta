@@ -3,6 +3,7 @@ https://www.linux.fi/wiki/GnuPG
 https://gnupg.org/faq/gnupg-faq.html  
 https://thehackernews.com/2018/06/gnupg-encryption-signature.html  
 https://devhints.io/gnupg (testaukseen)  
+https://secushare.org/PGP  (PGP vikoja)  
 
 ## X509  
 https://wiki.tut.fi/Tietoturva/X509,Varmennestandardi(2-A)  
@@ -20,7 +21,7 @@ https://www.centero.fi/blogi/pki-for-dummies/
 https://www.entrustdatacard.com/pages/what-is-pki  
 http://www.theseus.fi/bitstream/handle/10024/26659/ArtoPentikainenPKI.pdf?sequence=1&isAllowed=y
 
-https://www.hack2secure.com/blogs/how-ssl-tls-protocol-utilizes-cryptography-and-pki
+https://www.hack2secure.com/blogs/how-ssl-tls-protocol-utilizes-cryptography-and-pki  
 https://www.feistyduck.com/ssl-tls-and-pki-history/
 
 ## Muuta
