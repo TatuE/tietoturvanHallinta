@@ -19,6 +19,8 @@ https://en.wikipedia.org/wiki/Public_key_infrastructure
 https://www.centero.fi/blogi/pki-for-dummies/  
 https://www.entrustdatacard.com/pages/what-is-pki  
 
+https://www.hack2secure.com/blogs/how-ssl-tls-protocol-utilizes-cryptography-and-pki
+https://www.feistyduck.com/ssl-tls-and-pki-history/
 
 ## Muuta
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-817.pdf  
