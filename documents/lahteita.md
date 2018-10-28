@@ -37,6 +37,11 @@ Eino =
 
 Saku = 
 
+[Ten Risks of PKI: What You're not Being Told about Public Key   
+Infrastructure By Carl Ellison and Bruce Schneier](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)  
+Luin tämän ensin. Kuvaili ongelmakohtia PKI:ssa yleisellä tasolla. Ei juurikaan mennyt haavoittuvuuksista puhumiseen.
+
+
 Jussi =
 
 Tatu =
