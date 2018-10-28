@@ -44,6 +44,8 @@ Luin tämän ensin. Kuvaili ongelmakohtia PKI:ssa yleisellä tasolla. Ei juurika
 
 [NAI Net Tools PKI Server vulnerabilities](https://www.secureauth.com/labs/advisories/nai-net-tools-pki-server-vulnerabilities) Jos ymmärsin oikein, niin tietyt PKI server -ohjelmistot sisältävät haavoittuvuuksia. Ilmeisesti aika vanha löytö  ja tuskin sellainen asia mitä halutaan testailla. Aiheesta ei hirveästi löytynyt materiaalia. [Exploit-db:ssä](https://www.exploit-db.com/exploits/20134/) käsiteltiin aihetta vähän. 
 
+[In-house vs out-source PKI](https://techbeacon.com/managed-pki-certificates-securing-internet-things). Enimmäkseen yleistä tietoa PKI:sta. Käsittelee aihetta myös IoT:n kannalta ja mainitsee vaaihtoehtoisia ratkaisuja.
+
 Jussi =
 
 Tatu =
