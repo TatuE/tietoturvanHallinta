@@ -42,6 +42,7 @@ Infrastructure By Carl Ellison and Bruce Schneier](https://www.schneier.com/acad
 Luin tämän ensin. Kuvaili ongelmakohtia PKI:ssa yleisellä tasolla. Ei juurikaan mennyt haavoittuvuuksista puhumiseen.
 (Olikin sama, minkä minkä Tatu oli linkannut)  
 
+[NAI Net Tools PKI Server vulnerabilities](https://www.secureauth.com/labs/advisories/nai-net-tools-pki-server-vulnerabilities) Jos ymmärsin oikein, niin tietyt PKI server -ohjelmistot sisältävät haavoittuvuuksia. Ilmeisesti aika vanha löytö  ja tuskin sellainen asia mitä halutaan testailla. Aiheesta ei hirveästi löytynyt materiaalia. [Exploit-db:ssä](https://www.exploit-db.com/exploits/20134/) käsiteltiin aihetta vähän. 
 
 Jussi =
 
