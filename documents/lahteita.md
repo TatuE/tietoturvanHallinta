@@ -41,6 +41,20 @@ Jussi =
 
 Tatu =
 
+[The Problem with Multiple Roots in
+Web Browsers - Certificate Masquerading](http://profsandhu.com/cs5323_s17/Hayes98.pdf)
+
+Man in the middle attack scenario, hieman vanhempi dokkari mutta kokisin että käyttökelpoinen.
+
+[The risk of PKI, Schneier](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)
+
+Ihan kiva kokoelma riskejä. Enemmän yleistä infoa, ei välttämättä sovellu suoraan testaukseen.
+
+
+
+
+
+
 
 =======
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
