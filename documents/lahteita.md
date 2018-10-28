@@ -35,6 +35,7 @@ https://www.betterbuys.com/estimating-password-cracking-times/ (salauksen murtam
 
 Eino = 
 
+-----------------------------------------------
 Saku = 
 
 [Ten Risks of PKI: What You're not Being Told about Public Key   
@@ -48,6 +49,7 @@ Luin tämän ensin. Kuvaili ongelmakohtia PKI:ssa yleisellä tasolla. Ei juurika
 
 PKI serverit käyttävät ymmärtääkseni tuota LDAP protokollaa. Siihen löytyy ilmeisesti [hyökkäyksiä](http://projects.webappsec.org/w/page/13246947/LDAP%20Injection).
 
+--------------------------------------------------------
 
 Jussi =
 
