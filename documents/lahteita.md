@@ -46,6 +46,9 @@ Luin tämän ensin. Kuvaili ongelmakohtia PKI:ssa yleisellä tasolla. Ei juurika
 
 [In-house vs out-source PKI](https://techbeacon.com/managed-pki-certificates-securing-internet-things). Enimmäkseen yleistä tietoa PKI:sta. Käsittelee aihetta myös IoT:n kannalta ja mainitsee vaaihtoehtoisia ratkaisuja.
 
+PKI serverit käyttävät ymmärtääkseni tuota LDAP protokollaa. Siihen löytyy ilmeisesti [hyökkäyksiä](http://projects.webappsec.org/w/page/13246947/LDAP%20Injection).
+
+
 Jussi =
 
 Tatu =
