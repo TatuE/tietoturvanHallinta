@@ -35,14 +35,14 @@ https://www.betterbuys.com/estimating-password-cracking-times/ (salauksen murtam
 
 Eino = 
 
-![4 fatal problems with PKI](https://www.csoonline.com/article/2942072/security/4-fatal-problems-with-pki.html) (2015)
+[4 fatal problems with PKI](https://www.csoonline.com/article/2942072/security/4-fatal-problems-with-pki.html) (2015)
 1. Monimutkaisuus myötä, niin normaalien käyttäjien kuin myös adminien virheiden määrä kasvaa (hurja arvio, että vain 5% asennuksista täysin oikein ja turvallisesti)
 2. Monet selaimet ja sovellukset toimivat PKI-virheistä huolimatta -> tarkoitus katoaa
 3. Toimiva PKI ei takaa turvallisuutta -> käyttäjien huolimattomuus ja OWASP top10 kiertävän PKIn
 4. Varastetut, nykyisellä kryptografialla varastetut tiedot tullaan saamaan auki tulevaisuudessa kryptoanalyysin (ja kvanttilaskennan) kehittyessä.
 Suuri osa tiedosta jo varmasti vanhentunutta kun näin tapahtuu, mutta osa ei
 
-![Assessing Weaknesses in Public Key Infrastructure](https://threatpost.com/assessing-weaknesses-in-public-key-infrastructure/128793/)
+[Assessing Weaknesses in Public Key Infrastructure](https://threatpost.com/assessing-weaknesses-in-public-key-infrastructure/128793/)
 Vuodelta 2014, 150k malware näytteestä 325 oli allekirjoitettu validilla, perutulla tai vanhentuneella certillä.
 
 -----------------------------------------------
