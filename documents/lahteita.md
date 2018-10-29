@@ -64,6 +64,9 @@ Aika lailla samaa kuin edellisessä, mutta vähän tarkemmalla vastauksella.
 
 [OpenSSL:n virallinen haavoittuvuuslista](https://www.openssl.org/news/vulnerabilities.html)
 
+[Google: Security Keys Neutralized Employee Phishing](https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/)  
+2FA:n helppo käyttöönotto yritysmaailmassa, hyvä esimerkki käyttömukavuudesta.
+
 --------------------------------------------------------
 Tatu =
 
