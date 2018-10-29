@@ -53,16 +53,16 @@ PKI serverit käyttävät ymmärtääkseni tuota LDAP protokollaa. Siihen löyty
 
 Jussi =
 
-[https://resources.infosecinstitute.com/cybercrime-exploits-digital-certificates/](How Cybercrime Exploits Digital Certificates)  
+[How Cybercrime Exploits Digital Certificates](https://resources.infosecinstitute.com/cybercrime-exploits-digital-certificates/)  
 Pitkä ja kattava artikkeli, 20+ lähdettä aiheesta. **Tää on kova!**
 
-[https://social.technet.microsoft.com/Forums/windowsserver/en-US/b18610bb-02cf-471d-8d09-7724a75bd027/ietf-x509-ssl-certificate-signature-collision-vulnerability](IETF X.509 SSL Certificate Signature Collision Vulnerability)  
+[IETF X.509 SSL Certificate Signature Collision Vulnerability](https://social.technet.microsoft.com/Forums/windowsserver/en-US/b18610bb-02cf-471d-8d09-7724a75bd027/ietf-x509-ssl-certificate-signature-collision-vulnerability)  
 Ihan hyvä incident report, sertifikaatti on vain yhtä turvallinen kuin sen salaukseen käytetty algoritmi. Sertifikaatin voi siis salata myös heikommalla algoritmillä kuin mitä standardi vaatii --> haavoittuvuus testaukseen?
 
-[https://developer.ibm.com/answers/questions/245843/how-to-fix-ietf-x509-certificate-signature-collisi/](How to fix IETF X.509 Certificate Signature Collision Vulnerability in IHS?)  
+[How to fix IETF X.509 Certificate Signature Collision Vulnerability in IHS?](https://developer.ibm.com/answers/questions/245843/how-to-fix-ietf-x509-certificate-signature-collisi/)  
 Aika lailla samaa kuin edellisessä, mutta vähän tarkemmalla vastauksella.
 
-[https://www.openssl.org/news/vulnerabilities.html](OpenSSL:n virallinen haavoittuvuuslista)
+[OpenSSL:n virallinen haavoittuvuuslista](https://www.openssl.org/news/vulnerabilities.html)
 
 --------------------------------------------------------
 Tatu =
