@@ -72,6 +72,8 @@ Ihan hyvä incident report, sertifikaatti on vain yhtä turvallinen kuin sen sal
 [How to fix IETF X.509 Certificate Signature Collision Vulnerability in IHS?](https://developer.ibm.com/answers/questions/245843/how-to-fix-ietf-x509-certificate-signature-collisi/)  
 Aika lailla samaa kuin edellisessä, mutta vähän tarkemmalla vastauksella.
 
+[Why it’s harder to forge a SHA-1 certificate than it is to find a SHA-1 collision](https://blog.cloudflare.com/why-its-harder-to-forge-a-sha-1-certificate-than-it-is-to-find-a-sha-1-collision/)
+
 [OpenSSL:n virallinen haavoittuvuuslista](https://www.openssl.org/news/vulnerabilities.html)
 
 [Google: Security Keys Neutralized Employee Phishing](https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/)  
