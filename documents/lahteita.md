@@ -97,6 +97,7 @@ SSL/TLS analyysiohjelma (mm. heikkouksia), mahdollisesti kokeilun
 arvoinen.
 
 [github](https://github.com/HVLearn/HVLearn)
+-- En saanut compilattua, ongelma Javan kanssa mitä en saanut ratkaistua --
 
 Tutkielma aiheesta ja käytöstä
 
@@ -104,11 +105,12 @@ Tutkielma aiheesta ja käytöstä
 SSL/TLS 
 Implementations](https://www.computer.org/csdl/proceedings/sp/2017/5533/00/07958596.pdf)
 
+Vaihtoehtoinen lähetymistapa SSL sertifikattien tutkimiseen, löytyy Kalista =
 
+https://tools.kali.org/information-gathering/sslyze
 
+http://chousensha.github.io/blog/2017/06/24/sslscan-kali-linux-tools/
 
-
-
-=======
+====
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
 >>>>>>> 50a35deb918c6866ed783f99faed1034491ba295
