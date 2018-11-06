@@ -111,6 +111,9 @@ https://tools.kali.org/information-gathering/sslyze
 
 http://chousensha.github.io/blog/2017/06/24/sslscan-kali-linux-tools/
 
+[PKI = WoT vs CA](https://andrewgdotcom.wordpress.com/2014/11/13/wot-ca/)
+
+
 ====
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
 >>>>>>> 50a35deb918c6866ed783f99faed1034491ba295
