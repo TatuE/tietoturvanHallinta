@@ -113,7 +113,11 @@ http://chousensha.github.io/blog/2017/06/24/sslscan-kali-linux-tools/
 
 [PKI = WoT vs CA](https://andrewgdotcom.wordpress.com/2014/11/13/wot-ca/)
 
+https://security.stackexchange.com/questions/56389/ssl-certificate-framework-101-how-does-the-browser-actually-verify-the-validity
 
+https://serverfault.com/questions/325253/when-are-ocsp-requests-sent-by-web-browsers
+
+https://medium.com/@alexeysamoshkin/how-ssl-certificate-revocation-is-broken-in-practice-af3b63b9cb3
 ====
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
 >>>>>>> 50a35deb918c6866ed783f99faed1034491ba295
