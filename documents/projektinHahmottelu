@@ -10,7 +10,7 @@ Mitä vielä puuttuu/tarvitsee tutkia =
 
 Projektin lopputulokset =
 
-Testaus
+Testaus (Jussi & Tatu) 
         - liiketoiminnan häiritseminen (verkkosivu pois käytöstä)
                 -- Palvelimen sisäisen kellon siirtäminen (Toimii ainakin Windows 7)
                 -- Liikenteen ohjaaminen Proxyn kautta? (sertifikaatti puuttuu).
@@ -23,7 +23,7 @@ Testaus
                         --- voiko laittomalla toiminalla olla validin CA:n myöntämä sertifikaatti? Kiinnostaako heitä?
 			 
          
-Ohjeistus 
+Ohjeistus (Saku & Eino) 
         - Suunnattu peruhenkilökunnalle, ei admineille tai 
 asiantuntijoille 
         - Lisätään mukaan tarkistuslista ongelmista 
