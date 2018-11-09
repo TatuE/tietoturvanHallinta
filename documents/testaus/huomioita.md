@@ -36,4 +36,10 @@ Vaihtoehto OCSP viestin häiritsemiseksi on CA palvelimen DoS hyökkäys (se mit
 
 # Root CA
 
-Jos kohde käyttäjäkoneelle on pääsy, voi Root CA:t poistaa selaimista, mikä estää varmenteiden tarkistamisen. Tähän on olemassa ainakin Mozillalla NSS jolla pystyy määrittelemään varmenteita halutusti. Tämän luulisi voivan toteuttaa keskitetyn hallinnan kautta.
+Jos kohde käyttäjäkoneelle on pääsy, voi Root CA:t poistaa selaimista, mikä estää varmenteiden tarkistamisen. Tähän on olemassa ainakin Mozillalla NSS jolla pystyy määrittelemään varmenteita halutusti. Tämän luulisi voivan toteuttaa keskitetyn hallinnan kautta. 
+
+Seuraavia aiheta mitä tutkia:
+
+SSL/TLS analyysi (Kali Linux).
+Proxy = OCSP pakettien pudottaminen
+Hyökkäys WoT vastaan
