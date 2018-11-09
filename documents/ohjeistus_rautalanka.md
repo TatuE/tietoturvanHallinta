@@ -3,15 +3,23 @@
 1. Esipuhe
 2. Mitä?
 3. Miksi?
-4. Mikä on PKI?  
-https://www.reddit.com/r/explainlikeimfive/comments/7z6dto/eli5_whats_a_pki/
+4. Julkisen avaimen kryptografia
+5. Mikä on PKI?  
+Overview [[1](https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf)]
 
-5. Mikä on Web of Trust?
-6. Mitä ongelmia niissä on?
-7. Miten ne vertautuvat keskenään?
+
+
+
+6. Mikä on Web of Trust?
+7. Mitä ongelmia niissä on?
+8. Miten ne vertautuvat keskenään?
 
 Puheeksi tulleita asioita:  
 Liiketoiminnan jatkuvuuden turvaaminen  
 Tarkistuslista  
  -Bios kello
 Testaus
+
+
+Lähteet:  
+1. https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf
