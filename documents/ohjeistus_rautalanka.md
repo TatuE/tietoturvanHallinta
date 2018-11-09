@@ -14,3 +14,4 @@ Puheeksi tulleita asioita:
 Liiketoiminnan jatkuvuuden turvaaminen  
 Tarkistuslista  
  -Bios kello
+Testaus
