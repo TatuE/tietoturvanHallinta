@@ -1,0 +1,14 @@
+
+OCSP protokolla.
+
+	- OCSP POST response on allekirjoitettu, joten sen sisällön vaikuttaminen ilman että tiiviste muuttuu on vaikeaa/mahdodonta.
+	Ajatus viestin manipuloinnista proxyn kautta tulee harkita uudelleen, tällä hetkellä vaikuttaa epätodennäköiseltä.
+
+	Vaihtoehto OCSP viestin häiritsemiseksi on CA palvelimen DoS hyökkäys (se miten tämä testataan on vähän siinä ja tossa). 
+
+Root CA
+
+	Jos kohde käyttäjäkoneelle on pääsy, voi Root CA:t poistaa selaimista, mikä estää varmenteiden tarkistamisen. Tähän on olemassa ainakin Mozillalla NSS jolla pystyy määrittelemään 
+	varmenteita halutusti. Tämän luulisi voivan toteuttaa keskitetyn hallinnan kautta.
+
+	
