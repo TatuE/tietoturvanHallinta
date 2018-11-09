@@ -79,6 +79,9 @@ Aika lailla samaa kuin edellisessä, mutta vähän tarkemmalla vastauksella.
 [Google: Security Keys Neutralized Employee Phishing](https://krebsonsecurity.com/2018/07/google-security-keys-neutralized-employee-phishing/)  
 2FA:n helppo käyttöönotto yritysmaailmassa, hyvä esimerkki käyttömukavuudesta.
 
+[Root CA:n lisäys Firefoxiin, etänä](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS)  
+Verkkoliikenteen kierrättäminen ulkoisen proxyn kautta ilman erroreita, välimieshyökkäys etänä.
+
 --------------------------------------------------------
 Tatu =
 
