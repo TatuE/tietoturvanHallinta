@@ -27,3 +27,7 @@ allekirjoitusten verkosto
 -Chain-of-trustissa yhden linkin häiriö vaikuttaa koko ketjuun
 	-Web of (chains of) Trustissa yhden linkin häiriö ei vaukuta koko ketjuun välttämättä millään tavalla,
 	käytetään muita allekirjoitettuja ketjuja
+
+## KUVA!!!!
+
+![WoT](
