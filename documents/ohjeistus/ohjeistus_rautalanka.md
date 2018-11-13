@@ -13,9 +13,11 @@ Julkisen avaimen sertifikaateissa on olemassa standardeja, jotka pystyvät tukem
 
 
 
-6. Mikä on Web of Trust?
-7. Mitä ongelmia niissä on?
-8. Miten ne vertautuvat keskenään?
+
+
+### 6. Mikä on Web of Trust? ###  
+### 7. Mitä ongelmia niissä on? ###  
+### 8. Miten ne vertautuvat keskenään? ###  
 
 **Puheeksi tulleita asioita / ehdotuksia:**  
 Liiketoiminnan jatkuvuuden turvaaminen  
