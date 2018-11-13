@@ -20,8 +20,9 @@ Arkisessa tilanteessa on liikaa olettaa, että Bobilla olisi tiedossa Alicen ava
 
 ![skuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/skuva1.png?token=AdzH0wUVQBppyBdGjqV_qQKxxKgWVKOTks5b8-bFwA%3D%3D)
 
+Tämä saattaa kuulostaa ja näyttää yksinkertaiselta, mutta se herättää myös kysymyksiä. Mistä Bob tietää CA1:n julkisen avaimen? Voiko kaikkiin ketjun osiin luottaa? Miten hän saa juuri oikeat sertifikaatit, jotka muodostavat ketjun Alicen luo?
 
-
+Seuraavaksi 
 
 
 
