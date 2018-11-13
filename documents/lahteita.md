@@ -82,6 +82,10 @@ Aika lailla samaa kuin edellisessä, mutta vähän tarkemmalla vastauksella.
 [Root CA:n lisäys Firefoxiin, etänä](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS)  
 Verkkoliikenteen kierrättäminen ulkoisen proxyn kautta ilman erroreita, välimieshyökkäys etänä.
 
+https://arxiv.org/pdf/1609.03047.pdf
+
+https://pdfs.semanticscholar.org/b219/b5a7396bcc2728560c7d9d6728b898c66d5e.pdf
+
 --------------------------------------------------------
 Tatu =
 
