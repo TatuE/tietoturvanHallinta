@@ -11,6 +11,19 @@ PKI:n (Public Key Infrastructure) tarkoitus onkin luoda turvallinen, tehokas ja 
 Julkisen avaimen sertifikaateissa on olemassa standardeja, jotka pystyvät tukemaan erilaisten PKI-mallien vaatimuksia. Laajimmin käytetty näistä standardeista on **[X.509](https://en.wikipedia.org/wiki/X.509)**. Tässä kappaleessa käymme läpi joitakin PKI -malleja, puhuen niiden vahvuuksista ja heikkouksista.
 [[1](https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf)]
 
+Palataan aiemmin heränneeseen kysymykseen. Kuinka Alice ja Bob saavat toistensa julkiset avaimet selville?
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
