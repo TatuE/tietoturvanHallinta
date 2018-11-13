@@ -22,9 +22,11 @@ Arkisessa tilanteessa on liikaa olettaa, että Bobilla olisi tiedossa Alicen ava
 
 Tämä saattaa kuulostaa ja näyttää yksinkertaiselta, mutta se herättää myös kysymyksiä. Mistä Bob tietää CA1:n julkisen avaimen? Voiko kaikkiin ketjun osiin luottaa? Miten hän saa juuri oikeat sertifikaatit, jotka muodostavat ketjun Alicen luo?
 
-Onkin hyvä pitää mielessä seuraavia seikkoja:  
+Tästä aiheesta puhuessa on hyvä pitää mielessä seuraavat seikat:  
  - Tietoturvallisuudesta puhuessa ei ole olemassa yhtä vaatimusta, joka sopii kaikille. Salassa pidettäviä asioita käsittelevien yrityksien tietoturvakäytännöt voisivat tuntua pienessä yrityksessä tukahduttavilta. Vastaavasti pienellä yritykselle riittävät tietoturvakäytännöt ovat usein lähes varmasti täysin riittämättömät toisen yrityksen silmissä.
- - 
+ - Olemassa ei ole täydellistä ratkaisua. On parempi käyttää nykyistä puutteita sisältävää ratkaisua sen sijaan, että ei käytetä mitään kunnes täydellinen ratkaisu syntyy ja tulee kaikkien saataville.
+ - Jos turvallisuus on liian epäkäytännöllistä tai häiritsee toimintaa riittävästi, käyttäjät alkavat kiertämään sitä.
+ 
 
 
 
