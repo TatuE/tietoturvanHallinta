@@ -30,4 +30,4 @@ allekirjoitusten verkosto
 
 ## KUVA!!!!
 
-![WoT](
+![WoT](https://github.com/TatuE/tietoturvanHallinta/blob/master/documents/kuvat/VepOfRustKuve.jpg?raw=true)
