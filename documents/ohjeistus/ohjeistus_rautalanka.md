@@ -1,9 +1,10 @@
 ## Esiasteinen ehdotus ohjeistuksen rakenteesta ##
 
-1. Esipuhe
-2. Mitä?
-3. Miksi?
-4. Julkisen avaimen kryptografia
+### 1. Esipuhe ### 
+### 2. Mitä? ###  
+### 3. Miksi? ###  
+### 4. Julkisen avaimen kryptografia ###  
+
 ### 5. Mikä on PKI? ###  
 Jos kaksi tahoa (Alice & Bob) tuntevat omat yksityiset avaimensa ja toistensa julkiset avaimet, he voivat kommunikoida turvallisesti lukuisien julkiseen avaimeen pohjautuvien protokollien avulla. Näihin protokolliin lukeutuvat mm. IPSec, PGP ja SSL. Kysymys kuuluukin, että miten he tuntevat toisensa?  
 PKI:n (Public Key Infrastructure) tarkoitus onkin luoda turvallinen, tehokas ja käytännöllinen tapa löytää julkisia avaimia. Nimensä mukaan kyseessä on infrastruktuuri, joka voi rakentua monilla eri tavoilla. Käytössä on lukuisia erilaisia malleja, jotka eroavat toisistaan turvallisuuden, skaalautuvuuden ja rakenteen mukaan. Tutustumme näihin erilaisiin malleihin hieman myöhemmin (kappaleessa X). Julkisen avaimen sertifikaateissa on olemassa standardeja, jotka pystyvät tukemaan erilaisten PKI-mallien vaatimuksia. Laajimmin käytetty näistä standardeista on **[X.509](https://en.wikipedia.org/wiki/X.509)**  
