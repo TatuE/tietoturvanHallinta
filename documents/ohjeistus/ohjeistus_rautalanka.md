@@ -18,7 +18,7 @@ Palataan aiemmin heränneeseen kysymykseen. Kuinka Alice ja Bob saavat toistensa
 Tämänhetkinen yleisesti hyväksytty ratkaisu on se, että on olemassa luotettuja tahoja, CA (Cerfificate Authorities), joiden tehtävä on digitaalisesti allekirjoittaa sertifikaatteja, joiden avulla varmistetaan kenelle julkinen avain kuuluu.  
 Arkisessa tilanteessa on liikaa olettaa, että Bobilla olisi tiedossa Alicen avaimen allekirjoittanut CA. Tämän takia tarvitaan eräänlainen sertifikaattien ketju, jota seuraamalla Bob vastaanottaa Alicen avaimen.  
 
-!
+![skuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/skuva1.png?token=AdzH0wUVQBppyBdGjqV_qQKxxKgWVKOTks5b8-bFwA%3D%3D)
 
 
 
