@@ -125,6 +125,9 @@ https://security.stackexchange.com/questions/56389/ssl-certificate-framework-101
 https://serverfault.com/questions/325253/when-are-ocsp-requests-sent-by-web-browsers
 
 https://medium.com/@alexeysamoshkin/how-ssl-certificate-revocation-is-broken-in-practice-af3b63b9cb3
+
+[SSLScan ja 
+muista](https://www.hackeroyale.com/hack-ssl-sites-using-sslscan/)
 ====
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
 >>>>>>> 50a35deb918c6866ed783f99faed1034491ba295
