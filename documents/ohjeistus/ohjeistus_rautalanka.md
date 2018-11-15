@@ -31,7 +31,8 @@ Tästä aiheesta puhuessa on hyvä pitää mielessä seuraavat seikat:
  
  ### Yksittäisen CA:n malli ###
 
-Tämä malli koostuu yhdestä ainoasta CA:sta koko maailmassa. Jokainen laite konfiguroitaisiin etukäteen tuntemaan tämän CA:n julkinen avain. Kaikki sertifikaatit tulisi hankkia tätä CA:ta hallinnoivalta organisaatiolta. Tämä olisikin varmasti yksinkertaisin ratkaisu.   Mutta mikä siinä on vialla?
+Tämä malli koostuu yhdestä ainoasta CA:sta koko maailmassa. Jokainen laite konfiguroitaisiin etukäteen tuntemaan tämän CA:n julkinen avain. Kaikki sertifikaatit tulisi hankkia tätä CA:ta hallinnoivalta organisaatiolta. Tämä olisikin varmasti yksinkertaisin ratkaisu.  
+Mutta mikä siinä on vialla?
 - Maailmassa ei ole sellaista järjestöä, johon kaikki maat, yritykset, laitkoset yms. luottavat.
 - On epäkäytännöllistä hankkia sertifikaatti etäiseltä ja vieraalta organisaatiolta. Sertifikaatin jakamisen tapahtuisi luultavimmin sähköpostilla, eikä se ole turvallista ennen kuin sertifikaatti on käytössä turvaamassa liikennettä. Myös CA:n osalta on vaikeaa todentaa, että sertifikaatin on pyytänyt juuri se henkilö kenelle se on osoitettu.
 - Tietoturvan kannalta on hyvä vaihdella avaimia tietyin väliajoin. Mitä siis tapahtuu, jos CA haluaa vaihtaa avaimensa vahvempaan tai minimoida jo sattuneita vahinkoja? Kaikki laitteet maailmassa tulisi konfiguroida uudelleen sisältämään tämä uusi avain.
