@@ -56,7 +56,13 @@ Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäise
 
 ## 6. Mikä on Web of Trust? ##  
 ## 7. Mitä ongelmia niissä on? ##  
+
+### PKI:n ongelmakohdat ###  
+
+
 ## 8. Miten ne vertautuvat keskenään? ##  
+
+--------------------------------------------------------------------------------------------
 
 **Puheeksi tulleita asioita / ehdotuksia:**  
 Liiketoiminnan jatkuvuuden turvaaminen  
