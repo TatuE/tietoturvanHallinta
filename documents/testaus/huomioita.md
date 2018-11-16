@@ -38,8 +38,22 @@ Vaihtoehto OCSP viestin häiritsemiseksi on CA palvelimen DoS hyökkäys (se mit
 
 Jos kohde käyttäjäkoneelle on pääsy, voi Root CA:t poistaa selaimista, mikä estää varmenteiden tarkistamisen. Tähän on olemassa ainakin Mozillalla NSS jolla pystyy määrittelemään varmenteita halutusti. Tämän luulisi voivan toteuttaa keskitetyn hallinnan kautta. 
 
+#SslSniff välimieshyökkäys
+
+Ohjelman kautta voi välittää tai allekirjoittaa uusia varmenteita 
+kohde koneelle, tämä edellyttää välimieshyökkäystä ennen ohjelman 
+suorittamista. 
+välimieshyökkäys tapahtuu suorittamalla kohdekoneelle tai 
+verkkosegmentille ARPmyrkytys käyttäen arpspoof ohjelmaa.
+Hyötyä projektin kannalta on liikenteen salakuuntelu 
+salaamattomana, sekä mahdollisuus OCSP pakettien pudottamiselle 
+mikä estää halutun palvelun varmenteen varmistamisen 
+kohdekoneella.
+
+
 Seuraavia aiheta mitä tutkia:
 
 SSL/TLS analyysi (Kali Linux).
 Proxy = OCSP pakettien pudottaminen
 Hyökkäys WoT vastaan
+
