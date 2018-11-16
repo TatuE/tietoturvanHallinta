@@ -131,3 +131,5 @@ muista](https://www.hackeroyale.com/hack-ssl-sites-using-sslscan/)
 ====
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
 >>>>>>> 50a35deb918c6866ed783f99faed1034491ba295
+
+[Moxie, muutama kiinnostava työkalu](https://moxie.org/)
