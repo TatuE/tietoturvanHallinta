@@ -45,6 +45,8 @@ Puutteistaan ja ongelmistaan huolimatta tällä mallilla on omat puolestapuhujan
 
 
 
+
+
 ## 6. Mikä on Web of Trust? ##  
 ## 7. Mitä ongelmia niissä on? ##  
 ## 8. Miten ne vertautuvat keskenään? ##  
