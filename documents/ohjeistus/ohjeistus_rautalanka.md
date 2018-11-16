@@ -45,8 +45,9 @@ Puutteistaan ja ongelmistaan huolimatta tällä mallilla on omat puolestapuhujan
 
 Samoin tavoin kuin edellinen malli, tämäkin perustuu siihen, että on olemassa yksi CA ja kaikille laitteille on konfiguroitu tämän julkinen avain. Kaikki sertifikaatit siis allekirjoittaa tämä yksittäinen CA. Lisäksi tähän malliin kuuluu, että olemassa on useita Rekisteröinti viranomaisia (RA), joihin CA luottaa. RA:n (registeration Authority) tehtävä on autentikoida käyttäjä ja käyttäjän avain, sekä lähettää allekirjoitettu pyyntö CA:lle. Kun CA vastaanottaa allekirjoitetun pyynnön, se luovuttaa sertifikaatin. Käyttäjien näkökulmasta tämä toimintatapa muistuttaa yksittäisen CA:n mallia.  
 Mitä edellisen mallin ongelmia tämä rakenne ratkaisee? Kun olemassa on monta RA:ta, on hyvin todennäköistä, että ainakin yksi niistä on paremmin saatavilla kuin yksittäinen CA. Vaikka CA:n alaisuudessa on monta RA:ta, tarvitsee asiakas edelleen vain CA:n julkisen avaimen. Pelkästään CA on tietoinen RA avaimista.  
-RA:n kumoaminen toimii tässä mallissa yksinkertaisesti (jos RA 
+RA:n kumoaminen (jos RA menettää luotettavuutensa) toimii tässä mallissa yksinkertaisesti. CA voi yksinkertaisesti vastata kyseisen RA:n pyyntöihin, jolloin se ei kykene enää suorittamaan tehtäviään.
 
+Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäisen CA:n infrastruktuuri.
 
 
 
