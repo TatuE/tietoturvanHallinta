@@ -53,6 +53,24 @@ Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäise
 
 
 ## 6. Mikä on Web of Trust? ##  
+
+### Overwiev ###
+CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
+PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse.
+
+PGP-avaimia käytetään sähköpostien, levujen ja tiedostojen encryptaamiseen tai allekirjoitukseen. Kuka tahansa voi käyttäjän julkisella avaimella encryptata tiedoston, jonka pystyy avaamaan vain yksityisellä avaimella.
+Käyttäjä voi myös allekirjoittaa tiedoston/sähköpostin yksityisellä avaimellaan, ja vastaanottaja voi käyttäjän julkisella avaimella, että tiedosto/sähköposti on tosiaan tullut oikealta henkilöltä.
+Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voidaan varmistua, että ladattu ohjelma tosiaan on peräisin kehittäjältä.
+
+Käyttäjällä on avainpari, joka sisältää yksityisen ja julkisen avaimen.
+Yksityinen avain on salasana(tai salalause usein, turvallisuuden parantamiseksi) suojattu, ja tarkoitettu vain käyttäjän tietoon.
+Julkinen avain, joka levitetään avain-serverille ja tulee kaikkien tietoon.
+Avain parin kummatkin avaimet ovat linkitetty toisiinsa, kuitenkin siten, että julkisen avaimen avulla ei ole mahdollista saada selville käyttäjän yksityistä avainta.
+
+### WoT ###
+
+
+
 ## 7. Mitä ongelmia niissä on? ##  
 
 ### PKI:n ongelmakohdat ###  
