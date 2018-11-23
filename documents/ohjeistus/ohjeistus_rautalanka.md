@@ -5,12 +5,23 @@
 ## 3. Miksi? ##  
 ## 4. Julkisen avaimen kryptografia ##  
 
-Julkisen avaimen kryptografiassa luodaan kaksi avainta, yksityinen ja julkinen.
+Julkisen avaimen kryptografiassa kerralla luodaan kaksi avainta, yksityinen ja julkinen.
 
-Yksityinen avain on salasana(tai salalause, turvallisuuden parantamiseksi) suojattu, ja tarkoitettu vain käyttäjän tietoon.
+Yksityinen avain on salasana(tai salalause, turvallisuuden parantamiseksi) suojattu, ja tarkoitettu vain käyttäjän tietoon. 
 Julkinen avain on tarkoitettu julkiseen levitykseen, ja sen voi huolettaa laittaa kaikkien nähtäville internettiin.
 
 Avainparin kummatkin avaimet ovat linkitetty toisiinsa, kuitenkin siten, että julkisen avaimen avulla ei ole mahdollista saada selville käyttäjän yksityistä avainta.
+
+### Enkryptaaminen
+
+Avainparin julkisella avaimella on mahdollista enkryptata tiedostoja, tai vaikka kokonaisia levyjä. 
+Kuka tahansa voi kenen tahansa julkisella avaimella enkryptata tiedoston, joka voidaaan avata vain avainparin yksityisellä avaimella.
+
+### Allekirjoitus
+
+Avainparin yksityisellä avaimella on mahdollista digitaalisesti allekirjoittaa viestejä. 
+Tällöin viestin vastaanottaja voi yksityistä avainta vastaavalla julkisella avaimella varmistua, että viestin lähettäjä on tosiaan, kuka hän väittää olevansa, sekä että viestin sisältöä ei ole muokattu välillä.
+Toimii siis samalla tavalla, kuin käsin tehty allekirjoitus, paitsi että tämä on huomattavasti varmempi. Yksityisellä avaimella tehtyä digitaalista allekirjoitusta ei ole mahdollista jäljitellä.
 
 ## 5. Mikä on PKI? ##  
 Jos kaksi tahoa (Alice & Bob) tuntevat omat yksityiset avaimensa ja toistensa julkiset avaimet, he voivat kommunikoida turvallisesti lukuisien julkiseen avaimeen pohjautuvien protokollien avulla. Näihin protokolliin lukeutuvat mm. IPSec, PGP ja SSL. Kysymys kuuluukin, että miten he tuntevat toisensa?  
