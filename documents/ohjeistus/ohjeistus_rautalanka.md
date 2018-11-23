@@ -5,6 +5,13 @@
 ## 3. Miksi? ##  
 ## 4. Julkisen avaimen kryptografia ##  
 
+Julkisen avaimen kryptografiassa luodaan kaksi avainta, yksityinen ja julkinen.
+
+Yksityinen avain on salasana(tai salalause, turvallisuuden parantamiseksi) suojattu, ja tarkoitettu vain käyttäjän tietoon.
+Julkinen avain on tarkoitettu julkiseen levitykseen, ja sen voi huolettaa laittaa kaikkien nähtäville internettiin.
+
+Avainparin kummatkin avaimet ovat linkitetty toisiinsa, kuitenkin siten, että julkisen avaimen avulla ei ole mahdollista saada selville käyttäjän yksityistä avainta.
+
 ## 5. Mikä on PKI? ##  
 Jos kaksi tahoa (Alice & Bob) tuntevat omat yksityiset avaimensa ja toistensa julkiset avaimet, he voivat kommunikoida turvallisesti lukuisien julkiseen avaimeen pohjautuvien protokollien avulla. Näihin protokolliin lukeutuvat mm. IPSec, PGP ja SSL. Kysymys kuuluukin, että miten he tuntevat toisensa?  
 PKI:n (Public Key Infrastructure) tarkoitus onkin luoda turvallinen, tehokas ja käytännöllinen tapa löytää julkisia avaimia. Nimensä mukaan kyseessä on infrastruktuuri, joka voi rakentua monilla eri tavoilla. Käytössä on lukuisia erilaisia malleja, jotka eroavat toisistaan turvallisuuden, skaalautuvuuden ja rakenteen mukaan. Tutustumme näihin erilaisiin malleihin hieman myöhemmin.  
@@ -58,14 +65,9 @@ Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäise
 CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse.
 
-PGP-avaimia käytetään sähköpostien, levujen ja tiedostojen encryptaamiseen tai allekirjoitukseen. Kuka tahansa voi käyttäjän julkisella avaimella encryptata tiedoston, jonka pystyy avaamaan vain yksityisellä avaimella.
+PGP-avaimia käytetään sähköpostien, levyjen ja tiedostojen enkryptaamiseen tai allekirjoitukseen. Kuka tahansa voi käyttäjän julkisella avaimella encryptata tiedoston, jonka pystyy avaamaan vain yksityisellä avaimella.
 Käyttäjä voi myös allekirjoittaa tiedoston/sähköpostin yksityisellä avaimellaan, ja vastaanottaja voi käyttäjän julkisella avaimella, että tiedosto/sähköposti on tosiaan tullut oikealta henkilöltä.
 Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voidaan varmistua, että ladattu ohjelma tosiaan on peräisin kehittäjältä.
-
-Käyttäjällä on avainpari, joka sisältää yksityisen ja julkisen avaimen.
-Yksityinen avain on salasana(tai salalause usein, turvallisuuden parantamiseksi) suojattu, ja tarkoitettu vain käyttäjän tietoon.
-Julkinen avain, joka levitetään avain-serverille ja tulee kaikkien tietoon.
-Avain parin kummatkin avaimet ovat linkitetty toisiinsa, kuitenkin siten, että julkisen avaimen avulla ei ole mahdollista saada selville käyttäjän yksityistä avainta.
 
 ### WoT ###
 
