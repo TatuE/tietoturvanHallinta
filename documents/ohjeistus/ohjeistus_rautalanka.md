@@ -84,7 +84,10 @@ Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voida
 
 ### WoT ###
 
+PGPn suurin ongelma on avainten käyyäjien henkilöllisyyden varmistaminen. Kuka tahansa voi luoda avainparin mille tahansa nimelle, 
+ja täten väittää olevansa jotain muuta kuin oikeasti on.
 
+PGPn vastaus tähän ongelmaan on Web of Trust (WoT).
 
 ## 7. Mitä ongelmia niissä on? ##  
 
