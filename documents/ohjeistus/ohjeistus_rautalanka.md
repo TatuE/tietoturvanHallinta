@@ -102,8 +102,19 @@ Turvallisuutta voidaan ajatella ketjuna; se on yhtä vahva kuin sen heikoin lenk
 Keneen luotamme ja miksi? Kryptografian näkökulmasta luotettavuus tarkoittaa sitä, että CA hallitsee avaimiaan turvallisesti. Onko tämä kuitenkaan riittävä perustelu sille, että sertifikaatteja jakava taho on luottamuksen arvoinen esimerkiksi arvokasta tietoa käsiteltäessä? Lisäksi voidaan kysyä, että kuka on valtuuttanut CA:n jakamaan valtuutuksia? Entä kuka on päättänyt, että tietty CA on luotettava?
 
 **Kuka käyttää avaintani?**  
-Yksi suurimmista riskeistä PKI:ssa liittyy omaan yksityiseen avaimeesi. Tavallinen käyttäjä säilyttää avaintaan lähes varmasti riittämättömän suojauksen takana. Emme voi tietenkään odottaa, että tavallinen käyttäjä suojaisi avaimensa samalla tasolla kuin esimerkiksi CA. Mutta miksi oman avaimen turvauksella on väliä käyttäjän kannalta? Jos yksityinen avaimesi on CA:n varmentama, voidaan se liittää suoraan sinuun, ja olet vastuussa kaikesta siitä mitä tällä avaimella allekirjoitetaan. Joidenkin lainsäädäntöjen alaisuudessa et voi edes kiistää avaimellasi allekirjoitettuja tapahtumia verkossa vaan olet juridisesti vastuussa. Vertauskohdaksi voidaan mainita esimerkiksi tietyt tilaukset puhelinlaskussasi. Voit kiistää tilanneesi matkalipun bussiin ja kauppiaalla on velvollisuus todistaa, että olet todella tehnyt kyseisen tilauksen.  
-[[2](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
+Yksi suurimmista riskeistä PKI:ssa liittyy omaan yksityiseen avaimeesi. Tavallinen käyttäjä säilyttää avaintaan lähes varmasti riittämättömän suojauksen takana. Emme voi tietenkään odottaa, että tavallinen käyttäjä suojaisi avaimensa samalla tasolla kuin esimerkiksi CA. Mutta miksi oman avaimen turvauksella on väliä käyttäjän kannalta? Jos yksityinen avaimesi on CA:n varmentama, voidaan se liittää suoraan sinuun, ja olet vastuussa kaikesta siitä mitä tällä avaimella allekirjoitetaan. Joidenkin lainsäädäntöjen alaisuudessa et voi edes kiistää avaimellasi allekirjoitettuja tapahtumia verkossa vaan olet juridisesti vastuussa. Vertauskohdaksi voidaan mainita esimerkiksi tietyt tilaukset puhelinlaskussasi. Voit kiistää tilanneesi matkalipun bussiin ja kauppiaalla on velvollisuus todistaa, että olet todella tehnyt kyseisen tilauksen. Näin et kuitenkaan voi toimia yksityiseen avaimeen liittyvien väärinkäyttöjen tapauksessa.
+
+**Kuinka turvallinen varmentajan järjestelmä on?**  
+Vaikka oma järjestelmäsi oli täysin aukoton ja avaimesi turvassa, ei se poista sitä riskiä, että sertifikaattisi varmentavan tahon suojaus voidaan ohittaa. Siinä tapauksessa, että hyökkääjä onnistuu ohittamaan varmentajan puolustuksen, voi hän lisätä oman "Root Public Keyn" CA:n avainlistaan. Tämä mahdollistaa sen, että hyökkääjä pystyy allekirjoittamaan oman sertifikaattinsa, jota kohdellaan oikeana sertifikaattina. Ainoa ero oikean sertifikaatin välillä on, että hyökkääjän sertifikaatti sisältää hänen oman julkisen avaimen.
+
+![Chain_of_trust](https://github.com/TatuE/tietoturvanHallinta/blob/master/documents/kuvat/Chain_of_trust.png?raw=true)  
+[[2](https://en.wikipedia.org/wiki/Root_certificate)]
+
+Ainoa ratkaisu tähän ongelmaan on, että kaikki sertifikaattien varmennus tapahtuu järjestelmillä, jotka olisivat täysin murtovarmoja.
+
+
+
+[[3](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
 
 
 
@@ -120,5 +131,6 @@ Yhteydenotto CRL hallintaan tarpeen mukaan (oma cert esim. vanhenee, otetaan yht
 
 Lähteet:  
 1. https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf  
-2. https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt
+2. https://en.wikipedia.org/wiki/Root_certificate  
+3. https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt  
 
