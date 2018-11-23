@@ -14,7 +14,8 @@ Avainparin kummatkin avaimet ovat linkitetty toisiinsa, kuitenkin siten, että j
 
 ### Enkryptaaminen
 
-Avainparin julkisella avaimella on mahdollista enkryptata tiedostoja, tai vaikka kokonaisia levyjä.  Kuka tahansa voi kenen tahansa julkisella avaimella enkryptata tiedoston, joka voidaaan avata vain avainparin yksityisellä avaimella.
+Avainparin julkisella avaimella on mahdollista enkryptata tiedostoja, tai vaikka kokonaisia levyjä.
+Kuka tahansa voi kenen tahansa julkisella avaimella enkryptata tiedoston, joka voidaaan avata vain avainparin yksityisellä avaimella.
 
 ### Allekirjoitus
 
