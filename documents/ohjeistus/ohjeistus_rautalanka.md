@@ -20,8 +20,10 @@ Kuka tahansa voi kenen tahansa julkisella avaimella enkryptata tiedoston, joka v
 ### Allekirjoitus
 
 Avainparin yksityisellä avaimella on mahdollista digitaalisesti allekirjoittaa viestejä.  
-Tällöin viestin vastaanottaja voi yksityistä avainta vastaavalla julkisella avaimella varmistua, että viestin lähettäjä on tosiaan, kuka hän väittää olevansa, sekä että viestin sisältöä ei ole muokattu välillä.  
+Tällöin viestin vastaanottaja voi yksityistä avainta vastaavalla julkisella avaimella varmistua, että viestin lähettäjä on tosiaan, kuka tämä väittää olevansa, sekä että viestin sisältöä ei ole muokattu välillä.  
 Toimii siis samalla tavalla, kuin käsin tehty allekirjoitus, paitsi että tämä on huomattavasti varmempi. Yksityisellä avaimella tehtyä digitaalista allekirjoitusta ei ole mahdollista jäljitellä.
+
+Esimerkki hyvästä allekirjoituksen käyttökohteesta olisi käyttäjän palvelluntarjojien sähköpostit. Lukuisat kalasteluviestit yrittävät jäljitellä oikean palveluntarjoajan sähköposteja, ja näin saada käyttäjää syöttämään kirjautumistunnuksensa rikollisten palveluihin. Jos palveluntarjoajat käyttäisivät digitaallista allekirjoitusta viesteissään, voisi käyttäjä varmistua, että viestin lähettäjä on se, kuka tämä väittää olevansa.
 
 ## 5. Mikä on PKI? ##  
 Jos kaksi tahoa (Alice & Bob) tuntevat omat yksityiset avaimensa ja toistensa julkiset avaimet, he voivat kommunikoida turvallisesti lukuisien julkiseen avaimeen pohjautuvien protokollien avulla. Näihin protokolliin lukeutuvat mm. IPSec, PGP ja SSL. Kysymys kuuluukin, että miten he tuntevat toisensa?  
