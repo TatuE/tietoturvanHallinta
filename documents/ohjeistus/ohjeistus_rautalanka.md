@@ -113,7 +113,18 @@ Vaikka oma järjestelmäsi oli täysin aukoton ja avaimesi turvassa, ei se poist
 Ainoa ratkaisu tähän ongelmaan on, että kaikki sertifikaattien varmennus tapahtuu järjestelmillä, jotka olisivat täysin murtovarmoja.
 
 
+**Kuka "Timo Virtanen" hän on?**  
+Sertifikaatit assosioivat julkiset avaimet yleensä nimien kanssa, mutta kuinka hyödyllistä tämä oikeasti on?  
+Kuvitellaan tilanne, jossa saat ystäväsi Timon sertifikaatin sähköpostilla. Saatat henkilökohtaisesti tuntea yhden Timo Virtasen, mutta kuinka monta tämännimistä henkilöä CA tuntee? Sertifikaatissa esiintyvä nimi on sinulle varmasti tuttu, mutta voitko olla täysin varma, että se on juuri oikea henkilö? Sertifikaattin nimeen lisätään yleensä muutakin tietoa, jotta nimestä saadaan tämän CA:n kannalta uniikki. Tiedätkö kuitenkaan näitä tietoja ystävästäsi? Entä sitä, että miltä CA:lta hänen sertifikaatin pitäisi tulla?
 
+Nimien merkitys pienenee kun sertifikaattien määrät kasvavat. Nimet saattavat toimia perheen tai luokan mittakaavassa, mutta koko maailmaa ajetellen niillä ei juurikaan ole merkitystä sertifikaattien osalta.
+
+
+**Onko CA:lla valtuuksia?**  
+CA:lla on valtuuksia tehdä sertifikaatteja, mutta onko tällä arvovaltaa koskien sertifikaattien sisältöä? Esimerkiksi SSL Serverin sertifikaatissa mainitaan kaksi meitä kiinnostavaa asiaa. Avaimen haltijan nimi, sekä serverin DNS-nimi. DNS-nimien antamisesta vastaavat eri viranomaiset, eikä yksikään yleisimpien selaimien listaamista CA:sta ei kuulu siihen joukkoon. Tämä tarkoittaa, että sertifikaatissa mainittu DNS -nimi ei ole valtuutettu lause.  
+Mainitsimme myös avaimen haltijan nimen. SSL Serverin tapauksessa tämä nimi kuuluu mitä luultavimmin jollekin yritykselle. Niin kuin DNS-nimen kohdalla, yritysnimikkeistäkin vastaa jonkinlainen viranomainen, eivätkä selaimien sisältävät CA:t eivät kuulu myöskään tähän  joukkoon. 
+
+Tähän tiivistetty lista muista heikkouksista myöhemmin..
 [[3](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
 
 
