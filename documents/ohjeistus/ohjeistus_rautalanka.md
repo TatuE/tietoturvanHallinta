@@ -115,7 +115,7 @@ Ainoa ratkaisu tähän ongelmaan on, että kaikki sertifikaattien varmennus tapa
 
 **Kuka "Timo Virtanen" hän on?**  
 Sertifikaatit assosioivat julkiset avaimet yleensä nimien kanssa, mutta kuinka hyödyllistä tämä oikeasti on?  
-Kuvitellaan tilanne, jossa saat ystäväsi Timon sertifikaatin sähköpostilla. Saatat henkilökohtaisesti tuntea yhden Timo Virtasen, mutta kuinka monta tämännimistä henkilöä CA tuntee? Sertifikaatissa esiintyvä nimi on sinulle varmasti tuttu, mutta voitko olla täysin varma, että se on juuri oikea henkilö? Sertifikaattin nimeen lisätään yleensä muutakin tietoa, jotta nimestä saadaan tämän CA:n kannalta uniikki. Tiedätkö kuitenkaan näitä tietoja ystävästäsi? Entä sitä, että miltä CA:lta hänen sertifikaatin pitäisi tulla?
+Kuvitellaan tilanne, jossa saat ystäväsi, Timon, sertifikaatin sähköpostilla. Saatat henkilökohtaisesti tuntea yhden Timo Virtasen, mutta kuinka monta tämännimistä henkilöä CA tuntee? Sertifikaatissa esiintyvä nimi on sinulle varmasti tuttu, mutta voitko olla täysin varma, että se on juuri oikea henkilö? Sertifikaattin nimeen lisätään yleensä muutakin tietoa, jotta nimestä saadaan tämän CA:n kannalta uniikki. Tiedätkö kuitenkaan näitä tietoja ystävästäsi? Entä sitä, että miltä CA:lta hänen sertifikaatin pitäisi tulla?
 
 Nimien merkitys pienenee kun sertifikaattien määrät kasvavat. Nimet saattavat toimia perheen tai luokan mittakaavassa, mutta koko maailmaa ajetellen niillä ei juurikaan ole merkitystä sertifikaattien osalta.
 
