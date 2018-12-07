@@ -75,8 +75,6 @@ Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäise
 
 ## 6. Mikä on Web of Trust? ##  
 
-### Overwiev ###
-
 CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse.
 
@@ -84,7 +82,7 @@ PGP-avaimia käytetään sähköpostien, levyjen ja tiedostojen enkryptaamiseen 
 Käyttäjä voi myös allekirjoittaa tiedoston/sähköpostin yksityisellä avaimellaan, ja vastaanottaja voi käyttäjän julkisella avaimella varmistaa, että tiedosto/sähköposti on tosiaan tullut oikealta henkilöltä.
 Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voidaan varmistua, että ladattu ohjelma tosiaan on peräisin kehittäjältä.
 
-### WoT ###
+### GPG-avaimien luonti ###
 
 Avainpari voidaan luoda mm. gpg ohjelmalla.
 
@@ -117,7 +115,9 @@ Nyt voidaan aloittaa allekirjoitusprosessi. Tämä avaa gpg-konsolin. fpr-koment
 ![key-sign](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-sign.png?token=AdzIIakMv17K9sdSWS-PSI5_WFmjQFAGks5cE4X1wA%3D%3D)  
 
 Tässä prosessissa valitaan vielä luottamuksen taso. (1) vihteehdon kohdalla voisi nostaa esille kysymyksen, onko edes järkeä hyväksyä avainta, jota ei ole tarkistanut millään lailla. (3) vaihtoehto tarkoittaa käytännössä henkilöllisyyden varmistamista virallisesta valtion takaamasta henkilöllisyystodsituksesta (passi, henkilökortti, ajokortti), sekä myös mahdollisesti henkilön tuntemista aikaisemmista yhteyksistä.
-  
+
+### WoT ###
+
 Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään erityisiä key-signing-juhlia. Näissä käyttäjät vahvistavat toistensa henkilöllisyydet sekä allekirjoittavat toistensa avaimia. Näin muodostuu allekirjoitusten verkostoja. (Ikävä kyllä en löytänyt viitteitä suomessa järjestettävistä tapahtumista).  
 
 ![wot-kuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/pgpwotwotwooot.png?token=AdzIIe5oycle-gDg0-hceX2xUoW8gXAJks5cE6rZwA%3D%3D)  
