@@ -82,7 +82,7 @@ PGP-avaimia käytetään sähköpostien, levyjen ja tiedostojen enkryptaamiseen 
 Käyttäjä voi myös allekirjoittaa tiedoston/sähköpostin yksityisellä avaimellaan, ja vastaanottaja voi käyttäjän julkisella avaimella varmistaa, että tiedosto/sähköposti on tosiaan tullut oikealta henkilöltä.
 Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voidaan varmistua, että ladattu ohjelma tosiaan on peräisin kehittäjältä.
 
-### GPG-avaimien luonti ###
+### GPG-avaimien luonti ja julkisen avaimen allekirjoitus ###
 
 Avainpari voidaan luoda mm. gpg ohjelmalla.
 
