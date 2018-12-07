@@ -96,14 +96,26 @@ Avainpari voidaan luoda mm. gpg ohjelmalla.
 4. Syötetään avaimen käyttäjän nimi, sähköpostiosoite ja valinnainen kommentti, mihin avainta käytetään.
 5. Seuraavaksi prosessi luo ja tulostaa avaimet näytölle.
 
+
+pub on julkinen avain, joka lähetetään avainpalvelimelle. Näitä on useita (mm. MIT ylläpitää), ja ne jakavat tietoa keskenään. Täten ennen pitkää julkinen avain leviää kaikille avainpalvelimille.
 pub on julkinen avain, joka lähetetään avainserverille.
 ![send-key](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-send.png?token=AdzIIZYlt2DPRX9LOftaFMHrm6L7c0U9ks5cE4JgwA%3D%3D)
-
-
-
+![send-key](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-send.png?token=AdzIIZYlt2DPRX9LOftaFMHrm6L7c0U9ks5cE4JgwA%3D%3D)  
+Tähän on tallennettu avaimen käyttäjän tiedot. Julkista avainta voidaan etsiä nimellä, sähköpostilla tai suoraan julkisella avaimella.  
+![search-key](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-search.png?token=AdzIIfW-ooSkSofqyi4F8XryJ7dY3vthks5cE4PqwA%3D%3D)  
 PGPn suurin ongelma on avainten käyyäjien henkilöllisyyden varmistaminen. Kuka tahansa voi luoda avainparin mille tahansa nimelle, ja täten väittää olevansa jotain muuta kuin oikeasti on. Tällöin on jokaisen käyttäjän itsensä vastuulla, luodessa luottosuhteita muiden avaimiin, varmistaa avaimen haltijan henkilöllisyys.
-
+Toinen käyttäjä voi näin allekirjoittaa julkisen avaimen ja luoda luottosuhteen tähän. Ennen allekirjoitusta tulee kuitenkin varmistaa avaimen käyttäjän henkilöllisyys.  
+PGPn suurin ongelma on avainten käyyäjien henkilöllisyyden varmistaminen. Kuka tahansa voi luoda avainparin mille tahansa nimelle, ja täten väittää olevansa jotain muuta kuin oikeasti on. Tällöin on jokaisen käyttäjän itsensä vastuulla, luodessa luottosuhteita muiden avaimiin, varmistaa avaimen haltijan henkilöllisyys.  
+Käytännössä tämä tarkoittaa että, avainten allekirjoitus tulisi suorittaa kasvotusten ja vertaimella vielä allekirjoitettavan avaimen sormenjälkeä.  
 Avaimen 
+![key-check](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-check.png?token=AdzIIQ07JvmF8h7TK6sX289LuG4kQA1Rks5cE4U4wA%3D%3D)  
+Nyt voidaan aloittaa allekirjoitusprosessi. Tämä avaa gpg-konsolin. fpr-komento vielä tulostaa julkisen avaimen sormenjäljen, josta tulisi vielä vertailla avaimen haltijan kanssa esim. kolme ensimmäistä numerojonoa.  
+![key-sign](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-sign.png?token=AdzIIakMv17K9sdSWS-PSI5_WFmjQFAGks5cE4X1wA%3D%3D)  
+Tässä prosessissa valitaan vielä luottamuksen taso. (1) vihteehdon kohdalla voisi nostaa esille kysymyksen, onko edes järkeä hyväksyä avainta, jota ei ole tarkistanut millään lailla. (3) vaihtoehto tarkoittaa käytännössä henkilöllisyyden varmistamista virallisesta valtion takaamasta henkilöllisyystodsituksesta (passi, henkilökortti, ajokortti), sekä myös mahdollisesti henkilön tuntemista aikaisemmista yhteyksistä.
+  
+Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään erityisiä key-signing-juhlia. Näissä käyttäjät vahvistavat toistensa henkilöllisyydet sekä allekirjoittavat toistensa avaimia. Näin muodostuu allekirjoitusten verkostoja. (Ikävä kyllä en löytänyt viitteitä suomessa järjestettävistä tapahtumista).  
+![wot-kuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/VepOfRustKuve.jpg?token=AdzIIeDrCp7BFFULXHlDkHI9HPLVypewks5cE41rwA%3D%3D)  
+Kun verkostot ovat tarpeeksi isoja ja muodostavat linkkejä toisiinsa, syntyy suuren tietovekon näköinen luottosuhteiden verkosto. Luottosuhteet myös toimivat samalla tavalla, mikäli yksi linkki verkostosta kaatuu, voidaan käyttää toista.  
 
 
 ## 7. Mitä ongelmia niissä on? ##  
