@@ -199,3 +199,4 @@ Lähteet:
 3. https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt  
 4. https://www.gnupg.org/
 5. https://www.youtube.com/watch?v=Lq-yKJFHJpk
+6. https://cran.r-project.org/web/packages/gpg/vignettes/intro.html
