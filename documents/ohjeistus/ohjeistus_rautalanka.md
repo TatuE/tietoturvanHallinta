@@ -175,9 +175,11 @@ Sertifikaatit eivät itsestään luo turvallisuutta, vaan niistä saatavan hyöd
 - Onko avaimen käyttöikä laskettu, vai onko se valittu sattumalta tai yleisen käytännön mukaan? Avaimilla on kryptograafinen käyttöikä, joka elää uusien teknologioiden mukaan. Voidaan siis laskea aika, joka salauksen murtamiseen kuluu. Lisäksi voidaan laskea aika, jonka sisällä on todennäköistä, että avain menetetään esimerkiksi varkauden vuoksi.
 - Tukeeko sertifikaatin myyjä sulkulistojen käyttöjä? Sulkulistat (Certification Revocation List, CRL) on sisäänrakennettu joihinkin sertifikaattistandardeihin, mutta monet välttelevät niiden käyttöä, koska ne ovat vanhanaikaisia ja kankeasti käytettäviä. Mutta jos niitä ei käytetä, niin miten sertifikaattin sulkeminen / peruminen suoritetaan?
 - Jos sulkulistoja sovelletaan, niin miten avaimien vaarantuminen tai väärinkäyttö havaitaan, jotta lisäys sulkulistalle laukeaa? Voidaanko sulkeminen tehdä jälkikäteen, jos sertifikaatin haltija kieltää käyttäneensä avainta aikaisemmin johonkin kyseenalaiseen?
-
-
-Tähän tiivistetty lista muista heikkouksista myöhemmin..
+- Kuinka pitkä julkisesta avaimesta luodaan ja miksi kyseinen pituus on valittu? Käyttääkö "kauppias" 512-bittistä RSA avainta, koska se on nopeampi, vai 2048-bittistä avainta, koska joku sanoi, että se on turvallisempi?
+- Vaatiiko näiden sertifikaattien oikeanlainen käyttö toimintaa käyttäjän taholta?
+SSL yhteyden muodostuminen on helppo todeta selainta käytettäessä (vihreä lukko), mutta oletetaanko, että käyttäjä tarkistaa kenen kanssa hän on oikeasti salatussa yhteydessä? Jos et lue vastaanottamaasi sertifikaattia, et saa tätä selville.                     
+- Vaikka lukisitkin sertifikaatin, et välttämättä tunnista toista osapuolta, mutta voit ainakin arvioida paremmin, että     
+haluatko jakaa salaista tietoa.
 [[3](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
 
 
