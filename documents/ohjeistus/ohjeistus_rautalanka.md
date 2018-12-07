@@ -141,7 +141,7 @@ Komennolla `gpg --encrypt --recipient kupias@hotmail.com secret.txt` tiedosto sa
 
 ![gpgsign](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgsign.png?token=AdzIIUfckDwXiyNXRJMHjNe3HTEZv5WXks5cE7auwA%3D%3D)  
 
-Komento `gpg --clear-sign secret.txt luo tiedostosta allekirjoitetun kopion .asc päätteellä.
+Komento `gpg --clear-sign secret.txt` luo tiedostosta allekirjoitetun kopion .asc päätteellä.  
 Komento `gpg --verify secret.txt.asc` tulostaa tiedot allekirjoituksessa käytetystä avaimesta.  
 
 Alla viellä kuva, miltä allekirjoitettu viesti näyttää.
