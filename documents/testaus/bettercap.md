@@ -23,8 +23,7 @@ Kokeilimme välimieshyökkäyksen toteuttamista muutamalla eri kokoonpanolla, yh
 ### Välimieshyökkäys (korkeatasoisempi)
 Aiempaa välimieshyökkäystä voidaan kehittää entisestään liittämällä mukaan salatun liikenteen purku. Bettercapin tarjoamalla SSLstrip-toiminnolla voidaan purkaa tätä salausta niin, että ladatut sivut käyttävät Bettercapin luomaa sertifikaattia alkuperäisen sisään. Tämän jälkeen liikenne puretaan Bettercap:ia ajavalla palvelimella, ja salataan uudelleen alkuperäisellä avaimella. Jotta tämä hyökkäys toimii käytännössä, vaaditaan Bettercapin root-sertifikaatin asentaminen kohdekoneen selaimeen (johon vaaditaan koodin ajamista kohdekoneessa, mutta kuitenkin vain käyttäjän oikeuksilla).
 
-Tässä tapauksessa hyökkäys etenee siis seuraavalla tavalla:
-
+**Tässä tapauksessa hyökkäys etenee siis seuraavalla tavalla:**
 * Kohdeverkossa toimii ARP-hyökkäystä ajava palvelin (joko sinne itse salaa asennettu tai olemassa olevasta koneesta saastutettu)
   * ARP-hyökkäyksen kautta saadaan selville verkossa olevien koneiden tietoja (IP-osoitteita, hostnameja, tietoliikennettä)
   * Kerättyjen tietojen perusteella voidaan tunnistaa yksittäisiä työntekijöitä (kiinnostuksen kohteet, profilointi vs. selaushistoria)
@@ -33,7 +32,7 @@ Tässä tapauksessa hyökkäys etenee siis seuraavalla tavalla:
   * Kohteita vastaan voidaan hyökätä jollain keinolla, joka mahdollistaa oman koodin ajamisen tämän koneella (kuten sähköpostin liitetiedostot)
 * Kun kohdekone on saastutettu Bettercapin haitallisella root-sertifikaatilla, voidaan purkaa salattua liikennettä lennosta
 
-Hyökkäyksen ongelmat:
+**Hyökkäyksen ongelmat:**
 * Root-sertifikaatin asentaminen kohdekoneeseen vaatii jonkinasteista pääsyä. Vaikka tähän riittää saastuneen linkin tai liitetiedoston avaaminen, sulkee tämä silti suuren osan kohteista pois.
 * Kaikilla nettisivuilla on tämän jälkeen saman yrityksen takaama sertifikaatti. Jos käyttäjä klikkailee usein sertifikaatin tietoja auki (tai käyttää selainta, joka näyttää sertifikaatin myöntäjän osoitepalkissa), alkaa tämä nopeasti epäilyttää.
 * Sertifikaattien väärentämistä vastaan on kehitetty Certificate Pinning, jossa verkkosivun tiedoissa määritetään sertifikaatit, joilla sen liikenne saadaan salata. Testauksen perusteella suuret kansainväliset palvelut (Google, Facebook, Amazon) käyttävät tätä palvelua, kun taas suomalaisista palveluista suurimmatkaan (Yle, Helsingin Sanomat) eivät ole ottaneet sitä käyttöön. Certificate Pinningiä käyttävät sivustot huomaavat hyökkäyksen välittömästi, eivätkä toimi lainkaan.
