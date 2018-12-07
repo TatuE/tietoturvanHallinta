@@ -125,7 +125,7 @@ Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään 
 
 "Valmis" WoT voisi näyttää seuraavalta
 
-![WoTwotwoooot](http://www.phillylinux.org/keys/phillylinux.jpg)
+![WoTwotwoooot](http://www.phillylinux.org/keys/phillylinux.jpg)  
 [http://www.phillylinux.org/keys/historical.html]
 
 WoT sisältää useita linkkejä eri henkilöiden välillä. Tällöin vaikka yksi linkki tippuisikin pois, voidaan käyttää jotain toista reittiä. Tämä on WoTin suurin vahvuus CA-malliin verrattuna, jossa yhden linkin viottuminen vaikuttaa kaikkiin sen alapuolella toimiviin.
