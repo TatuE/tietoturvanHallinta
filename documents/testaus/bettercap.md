@@ -1,4 +1,4 @@
-# Testausraportti: Bettercap/SSLsniff/SSLstrip
+# Testausraportti: Välimieshyökkäys ja SSL-salatun liikenteen murtaminen
 ## Työkalut
 Bettercap on Linux-ohjelma, joka on suunniteltu verkkoliikenteen kaappaamiseen. Siihen integroidut toiminnallisuudet, kuten SSLsniff ja SSLstrip, mahdollistavat (tietyin varauksin) myös lähtökohtaisesti salatun liikenteen pakettien kaappaamisen.
 Bettercapin käyttömahdollisuudet verkkoliikenteen kartoittamisessa ja kaappaamisessa ovat laajat, aina yksinkertaisesta verkon kartoituksesta sertifikaattien automaattiseen väärentämiseen ja verkkosivujen salatun liikenteen huomaamattomaan kaappaamiseen asti.
