@@ -12,12 +12,12 @@ Julkinen avain on tarkoitettu julkiseen levitykseen, ja sen voi huolettaa laitta
 
 Avainparin kummatkin avaimet ovat linkitetty toisiinsa, kuitenkin siten, että julkisen avaimen avulla ei ole mahdollista saada selville käyttäjän yksityistä avainta.
 
-### Enkryptaaminen
+### Enkryptaaminen ###
 
 Avainparin julkisella avaimella on mahdollista enkryptata tiedostoja, tai vaikka kokonaisia levyjä.
 Kuka tahansa voi kenen tahansa julkisella avaimella enkryptata tiedoston, joka voidaaan avata vain avainparin yksityisellä avaimella.
 
-### Allekirjoitus
+### Allekirjoitus ###
 
 Avainparin yksityisellä avaimella on mahdollista digitaalisesti allekirjoittaa viestejä.  
 Tällöin viestin vastaanottaja voi yksityistä avainta vastaavalla julkisella avaimella varmistua, että viestin lähettäjä on tosiaan, kuka tämä väittää olevansa, sekä että viestin sisältöä ei ole muokattu välillä.  
@@ -37,7 +37,7 @@ Palataan aiemmin heränneeseen kysymykseen. Kuinka Alice ja Bob saavat toistensa
 Tämänhetkinen yleisesti hyväksytty ratkaisu on se, että on olemassa luotettuja tahoja, CA (Cerfificate Authorities), joiden tehtävä on digitaalisesti allekirjoittaa sertifikaatteja, joiden avulla varmistetaan kenelle julkinen avain kuuluu.  
 Arkisessa tilanteessa on liikaa olettaa, että Bobilla olisi tiedossa Alicen avaimen allekirjoittanut CA. Tämän takia tarvitaan eräänlainen sertifikaattien ketju, jota seuraamalla Bob vastaanottaa Alicen avaimen.  
 
-![skuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/skuva1.png?token=AdzH06L52MheEA_PKl3xnxQQI95GRRVhks5cE3i-wA%3D%3D)
+![skuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/skuva1.png?token=AdzH0_ZDn3NUgL8puJLXBHnb6BxjUjCQks5cAWpkwA%3D%3D)
 
 
 Tämä saattaa kuulostaa ja näyttää yksinkertaiselta, mutta se herättää myös kysymyksiä. Mistä Bob tietää CA1:n julkisen avaimen? Voiko kaikkiin ketjun osiin luottaa? Miten hän saa juuri oikeat sertifikaatit, jotka muodostavat ketjun Alicen luo?
@@ -76,6 +76,7 @@ Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäise
 ## 6. Mikä on Web of Trust? ##  
 
 ### Overwiev ###
+
 CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse.
 
@@ -85,10 +86,14 @@ Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voida
 
 ### WoT ###
 
-PGPn suurin ongelma on avainten käyyäjien henkilöllisyyden varmistaminen. Kuka tahansa voi luoda avainparin mille tahansa nimelle, 
-ja täten väittää olevansa jotain muuta kuin oikeasti on.
+Avainpari voidaan luoda mm. gpg ohjelmalla.
 
-PGPn vastaus tähän ongelmaan on Web of Trust (WoT).
+![avaimen luonti](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-gen.png?token=AdzIIcU-YD6rTfdTMGgUEX_XyRLHfTxcks5cE31awA%3D%3D)
+
+PGPn suurin ongelma on avainten käyyäjien henkilöllisyyden varmistaminen. Kuka tahansa voi luoda avainparin mille tahansa nimelle, ja täten väittää olevansa jotain muuta kuin oikeasti on. Tällöin on jokaisen käyttäjän itsensä vastuulla, luodessa luottosuhteita muiden avaimiin, varmistaa avaimen haltijan henkilöllisyys.
+
+Avaimen 
+
 
 ## 7. Mitä ongelmia niissä on? ##  
 
