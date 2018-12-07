@@ -133,7 +133,13 @@ Suurin heikkous taas, että henkilöiden varmentaminen vaatii aikaa ja mahd. my�
 
 ### Viestin enkryptaaminen ja dekryptaaminen ###
 
+![gpgencrpt](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgencrypted.png?token=AdzIIVhDFLa1RVlopEPNYPL1MSCHYPA4ks5cE7aGwA%3D%3D)  
 
+### Viestin allekirjoitus ###
+
+![gpgsign](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgsign.png?token=AdzIIUfckDwXiyNXRJMHjNe3HTEZv5WXks5cE7auwA%3D%3D)  
+
+![gpgsignemessage](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgsigned%20message.png?token=AdzIIQnnnq4kLIPgCuxr2EQRqRufC-M_ks5cE7bVwA%3D%3D)  
 
 ## 7. Mitä ongelmia niissä on? ##  
 
