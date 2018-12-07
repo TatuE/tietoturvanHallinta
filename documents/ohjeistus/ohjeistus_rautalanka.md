@@ -120,7 +120,7 @@ Tässä prosessissa valitaan vielä luottamuksen taso. (1) vihteehdon kohdalla v
   
 Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään erityisiä key-signing-juhlia. Näissä käyttäjät vahvistavat toistensa henkilöllisyydet sekä allekirjoittavat toistensa avaimia. Näin muodostuu allekirjoitusten verkostoja. (Ikävä kyllä en löytänyt viitteitä suomessa järjestettävistä tapahtumista).  
 
-![wot-kuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/VepOfRustKuve.jpg?token=AdzIIeDrCp7BFFULXHlDkHI9HPLVypewks5cE41rwA%3D%3D)  
+![wot-kuva1](www.http://github.com/TatuE/tietoturvanHallinta/blob/master/documents/kuvat)  
 
 "Valmis" WoT voisi näyttää seuraavalta
 
