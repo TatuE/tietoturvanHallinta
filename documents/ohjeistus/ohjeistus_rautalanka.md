@@ -128,6 +128,7 @@ Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään 
 [http://www.phillylinux.org/keys/historical.html]
 
 WoT sisältää useita linkkejä eri henkilöiden välillä. Tällöin vaikka yksi linkki tippuisikin pois, voidaan käyttää jotain toista reittiä. Tämä on WoTin suurin vahvuus CA-malliin verrattuna, jossa yhden linkin viottuminen vaikuttaa kaikkiin sen alapuolella toimiviin.
+Suurin heikkous taas, että henkilöiden varmentaminen vaatii aikaa ja mahd. myös matkustelua. Verkoston luominen ja ylläpito vaatii paljon työtä.
 
 ## 7. Mitä ongelmia niissä on? ##  
 
@@ -196,4 +197,5 @@ Lähteet:
 1. https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf  
 2. https://en.wikipedia.org/wiki/Root_certificate  
 3. https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt  
-
+4. https://www.gnupg.org/
+5. https://www.youtube.com/watch?v=Lq-yKJFHJpk
