@@ -135,11 +135,20 @@ Suurin heikkous taas, että henkilöiden varmentaminen vaatii aikaa ja mahd. my�
 
 ![gpgencrpt](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgencrypted.png?token=AdzIIVhDFLa1RVlopEPNYPL1MSCHYPA4ks5cE7aGwA%3D%3D)  
 
+Komennolla `gpg --encrypt --recipient kupias@hotmail.com secret.txt` tiedosto salataan käyttäjän kupias@hotmail.com julkisella avaimella luoden salatun kopion tiedostosta .gpg tiedostopäätteellä, jolloin ainoastaan tätä vastaavalla yksityisellä avaimella tiedosto voidaan avata. Kuvassa ei kohtaa näy, mutta decryptatessa viestiä, avautui popup-ikkuna jonne yksityisen avaimen salasana tuli syöttää.
+
 ### Viestin allekirjoitus ###
 
 ![gpgsign](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgsign.png?token=AdzIIUfckDwXiyNXRJMHjNe3HTEZv5WXks5cE7auwA%3D%3D)  
 
+Komento `gpg --clear-sign secret.txt luo tiedostosta allekirjoitetun kopion .asc päätteellä.
+Komento `gpg --verify secret.txt.asc` tulostaa tiedot allekirjoituksessa käytetystä avaimesta.  
+
+Alla viellä kuva, miltä allekirjoitettu viesti näyttää.
+
 ![gpgsignemessage](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/gpgsigned%20message.png?token=AdzIIQnnnq4kLIPgCuxr2EQRqRufC-M_ks5cE7bVwA%3D%3D)  
+
+
 
 ## 7. Mitä ongelmia niissä on? ##  
 
