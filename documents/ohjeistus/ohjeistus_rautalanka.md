@@ -171,7 +171,7 @@ Oletetaanko turvallisuuden suunnittelussa, että käyttäjä toimii parhaiden k�
 Jos käyttäjä on osa turvallisuussuunnittelua, voi hänen huolimattomuutensa rikkoa muuten toimivan turvallisuuden asetelman.
 
 
-**Kuinka turvallisia sertifikaatteihin liittyvät käytännöt ovat?**
+**Kuinka turvallisia sertifikaatteihin liittyvät käytännöt ovat?**  
 Sertifikaatit eivät itsestään luo turvallisuutta, vaan niistä saatavan hyödyn eteen täytyy nähdä vaivaa. Hyviin käytäntöihin liittyy monia seikkoja:  
 - Onko avaimen käyttöikä laskettu, vai onko se valittu sattumalta tai yleisen käytännön mukaan? Avaimilla on kryptograafinen käyttöikä, joka elää uusien teknologioiden mukaan. Voidaan siis laskea aika, joka salauksen murtamiseen kuluu. Lisäksi voidaan laskea aika, jonka sisällä on todennäköistä, että avain menetetään esimerkiksi varkauden vuoksi.
 - Tukeeko sertifikaatin myyjä sulkulistojen käyttöjä? Sulkulistat (Certification Revocation List, CRL) on sisäänrakennettu joihinkin sertifikaattistandardeihin, mutta monet välttelevät niiden käyttöä, koska ne ovat vanhanaikaisia ja kankeasti käytettäviä. Mutta jos niitä ei käytetä, niin miten sertifikaattin sulkeminen / peruminen suoritetaan?
