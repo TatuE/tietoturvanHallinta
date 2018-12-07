@@ -33,7 +33,7 @@ https://www.betterbuys.com/estimating-password-cracking-times/ (salauksen murtam
 
 ## uusi lähetymistapa:
 
-Eino = 
+Eino =
 
 [4 fatal problems with PKI](https://www.csoonline.com/article/2942072/security/4-fatal-problems-with-pki.html) (2015)
 1. Monimutkaisuus myötä, niin normaalien käyttäjien kuin myös adminien virheiden määrä kasvaa (hurja arvio, että vain 5% asennuksista täysin oikein ja turvallisesti)
@@ -46,14 +46,14 @@ Suuri osa tiedosta jo varmasti vanhentunutta kun näin tapahtuu, mutta osa ei
 Vuodelta 2014, 150k malware näytteestä 325 oli allekirjoitettu validilla, perutulla tai vanhentuneella certillä.
 
 -----------------------------------------------
-Saku = 
+Saku =
 
 [Ten Risks of PKI: What You're not Being Told about Public Key   
 Infrastructure By Carl Ellison and Bruce Schneier](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)  
 Luin tämän ensin. Kuvaili ongelmakohtia PKI:ssa yleisellä tasolla. Ei juurikaan mennyt haavoittuvuuksista puhumiseen.
 (Olikin sama, minkä minkä Tatu oli linkannut)  
 
-[NAI Net Tools PKI Server vulnerabilities](https://www.secureauth.com/labs/advisories/nai-net-tools-pki-server-vulnerabilities) Jos ymmärsin oikein, niin tietyt PKI server -ohjelmistot sisältävät haavoittuvuuksia. Ilmeisesti aika vanha löytö  ja tuskin sellainen asia mitä halutaan testailla. Aiheesta ei hirveästi löytynyt materiaalia. [Exploit-db:ssä](https://www.exploit-db.com/exploits/20134/) käsiteltiin aihetta vähän. 
+[NAI Net Tools PKI Server vulnerabilities](https://www.secureauth.com/labs/advisories/nai-net-tools-pki-server-vulnerabilities) Jos ymmärsin oikein, niin tietyt PKI server -ohjelmistot sisältävät haavoittuvuuksia. Ilmeisesti aika vanha löytö  ja tuskin sellainen asia mitä halutaan testailla. Aiheesta ei hirveästi löytynyt materiaalia. [Exploit-db:ssä](https://www.exploit-db.com/exploits/20134/) käsiteltiin aihetta vähän.
 
 [In-house vs out-source PKI](https://techbeacon.com/managed-pki-certificates-securing-internet-things). Enimmäkseen yleistä tietoa PKI:sta. Käsittelee aihetta myös IoT:n kannalta ja mainitsee vaaihtoehtoisia ratkaisuja.
 
@@ -100,7 +100,7 @@ Ihan kiva kokoelma riskejä. Enemmän yleistä infoa, ei välttämättä sovellu
 
 ### HVLearn
 
-SSL/TLS analyysiohjelma (mm. heikkouksia), mahdollisesti kokeilun 
+SSL/TLS analyysiohjelma (mm. heikkouksia), mahdollisesti kokeilun
 arvoinen.
 
 [github](https://github.com/HVLearn/HVLearn)
@@ -108,8 +108,8 @@ arvoinen.
 
 Tutkielma aiheesta ja käytöstä
 
-[HVLearn: Automated Black-box Analysis of Hostname Verification in 
-SSL/TLS 
+[HVLearn: Automated Black-box Analysis of Hostname Verification in
+SSL/TLS
 Implementations](https://www.computer.org/csdl/proceedings/sp/2017/5533/00/07958596.pdf)
 
 Vaihtoehtoinen lähetymistapa SSL sertifikattien tutkimiseen, löytyy Kalista =
@@ -126,10 +126,12 @@ https://serverfault.com/questions/325253/when-are-ocsp-requests-sent-by-web-brow
 
 https://medium.com/@alexeysamoshkin/how-ssl-certificate-revocation-is-broken-in-practice-af3b63b9cb3
 
-[SSLScan ja 
+[SSLScan ja
 muista](https://www.hackeroyale.com/hack-ssl-sites-using-sslscan/)
 ====
 https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
 >>>>>>> 50a35deb918c6866ed783f99faed1034491ba295
 
 [Moxie, muutama kiinnostava työkalu](https://moxie.org/)
+
+https://www.owasp.org/images/7/7a/SSL_Spoofing.pdf
