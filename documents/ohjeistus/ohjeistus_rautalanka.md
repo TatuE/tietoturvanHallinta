@@ -2,6 +2,18 @@
 
 ## 1. Esipuhe ##  
 ## 2. Mitä? ##  
+
+Ohjeistuksemme käsittelee asiaa, joka esiintyy lähes jokaisen ihmisen arjessa, tiesivät he sitä tai eivät. Nämä käsitteet ovat monille
+tuttuja, mutta monet eivät oikeasti tiedä mitä niillä tarkoitetaan. Siksi tärkeä osa projektiamme on selvittää, mitä nämä käsitteet 
+tarkoittavat ja miten ne käytännössä toimivat.
+
+Miksi sertifikaatteja käytetään?
+Digitaaliset sertifikaatit ovat tällä hetkellä laajimmin hyväksytty ratkaisu salatun tiedon suojaamiseksi kahden tahon välillä.
+Niihin sisältyy omat haasteensa ja puutteensa, mutta ne ovat ainoa helposti skaalautuva ratkaisu. Lisäksi voidaan sanoa, ettei ole  
+realistista odottaa täydellistä ratkaisua, vaan on kannattavampaa innovoida erilaisia teknologioita, jotka vastaavat haasteisiin   
+tyydyttävällä tasolla.
+
+
 ## 3. Miksi? ##  
 ## 4. Julkisen avaimen kryptografia ##  
 
