@@ -131,6 +131,10 @@ Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään 
 WoT sisältää useita linkkejä eri henkilöiden välillä. Tällöin vaikka yksi linkki tippuisikin pois, voidaan käyttää jotain toista reittiä. Tämä on WoTin suurin vahvuus CA-malliin verrattuna, jossa yhden linkin viottuminen vaikuttaa kaikkiin sen alapuolella toimiviin.
 Suurin heikkous taas, että henkilöiden varmentaminen vaatii aikaa ja mahd. myös matkustelua. Verkoston luominen ja ylläpito vaatii paljon työtä.
 
+### Viestin enkryptaaminen ja dekryptaaminen ###
+
+
+
 ## 7. Mitä ongelmia niissä on? ##  
 
 ### PKI:n ongelmakohdat ###  
