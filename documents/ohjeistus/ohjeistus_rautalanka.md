@@ -90,6 +90,12 @@ Avainpari voidaan luoda mm. gpg ohjelmalla.
 
 ![avaimen luonti](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-gen.png?token=AdzIIcU-YD6rTfdTMGgUEX_XyRLHfTxcks5cE31awA%3D%3D)
 
+1. Valitaan salaus algoritmi
+2. Salauksen pituus, lyhempi on turvattomampi, pidemmässä kestää pidempään luoda ja se vie enemmän tilaa
+3. Avaimen voimassaoloaika. Mitä pidempään käytetään samaa avainta, sitä todennäköisemmäksi tulee, että se varastetaan/kopioidaan ja ennen pitkään saadaan murrettua. Näin ollen avaimella tulisi olla vanhentumispäivä.
+4. Syötetään avaimen käyttäjän nimi, sähköpostiosoite ja valinnainen kommentti, mihin avainta käytetään.
+5. Seuraavaksi prosessi luo ja tulostaa avaimet näytölle.
+
 PGPn suurin ongelma on avainten käyyäjien henkilöllisyyden varmistaminen. Kuka tahansa voi luoda avainparin mille tahansa nimelle, ja täten väittää olevansa jotain muuta kuin oikeasti on. Tällöin on jokaisen käyttäjän itsensä vastuulla, luodessa luottosuhteita muiden avaimiin, varmistaa avaimen haltijan henkilöllisyys.
 
 Avaimen 
