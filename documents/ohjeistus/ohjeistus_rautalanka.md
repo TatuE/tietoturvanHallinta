@@ -116,8 +116,10 @@ Nyt voidaan aloittaa allekirjoitusprosessi. Tämä avaa gpg-konsolin. fpr-koment
 
 Tässä prosessissa valitaan vielä luottamuksen taso. (1) vihteehdon kohdalla voisi nostaa esille kysymyksen, onko edes järkeä hyväksyä avainta, jota ei ole tarkistanut millään lailla. (3) vaihtoehto tarkoittaa käytännössä henkilöllisyyden varmistamista virallisesta valtion takaamasta henkilöllisyystodsituksesta (passi, henkilökortti, ajokortti), sekä myös mahdollisesti henkilön tuntemista aikaisemmista yhteyksistä.
   
+Koska WoT-mallissa henkilöllisyyden tarkastimen on tärkeää, järjestetään erityisiä key-signing-juhlia. Näissä käyttäjät vahvistavat toistensa henkilöllisyydet sekä allekirjoittavat toistensa avaimia. Näin muodostuu allekirjoitusten verkostoja. (Ikävä kyllä en löytänyt viitteitä suomessa järjestettävistä tapahtumista).  
+![wot-kuva1](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/VepOfRustKuve.jpg?token=AdzIIeDrCp7BFFULXHlDkHI9HPLVypewks5cE41rwA%3D%3D)  
 
-
+Kun verkostot ovat tarpeeksi isoja ja muodostavat linkkejä toisiinsa, syntyy suuren tietovekon näköinen luottosuhteiden verkosto. Luottosuhteet myös toimivat samalla tavalla, mikäli yksi linkki verkostosta kaatuu, voidaan käyttää toista.  
 
 ## 7. Mitä ongelmia niissä on? ##  
 
