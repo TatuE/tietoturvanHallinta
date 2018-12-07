@@ -81,7 +81,7 @@ CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation m
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse.
 
 PGP-avaimia käytetään sähköpostien, levyjen ja tiedostojen enkryptaamiseen tai allekirjoitukseen. Kuka tahansa voi käyttäjän julkisella avaimella encryptata tiedoston, jonka pystyy avaamaan vain yksityisellä avaimella.
-Käyttäjä voi myös allekirjoittaa tiedoston/sähköpostin yksityisellä avaimellaan, ja vastaanottaja voi käyttäjän julkisella avaimella, että tiedosto/sähköposti on tosiaan tullut oikealta henkilöltä.
+Käyttäjä voi myös allekirjoittaa tiedoston/sähköpostin yksityisellä avaimellaan, ja vastaanottaja voi käyttäjän julkisella avaimella varmistaa, että tiedosto/sähköposti on tosiaan tullut oikealta henkilöltä.
 Linuksin paketinhallinta käyttää tätä allekirjoitus systeemiä, jotta voidaan varmistua, että ladattu ohjelma tosiaan on peräisin kehittäjältä.
 
 ### WoT ###
