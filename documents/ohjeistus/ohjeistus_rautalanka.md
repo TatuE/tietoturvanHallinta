@@ -140,6 +140,11 @@ Nimien merkitys pienenee kun sertifikaattien määrät kasvavat. Nimet saattavat
 CA:lla on valtuuksia tehdä sertifikaatteja, mutta onko tällä arvovaltaa koskien sertifikaattien sisältöä? Esimerkiksi SSL Serverin sertifikaatissa mainitaan kaksi meitä kiinnostavaa asiaa. Avaimen haltijan nimi, sekä serverin DNS-nimi. DNS-nimien antamisesta vastaavat eri viranomaiset, eikä yksikään yleisimpien selaimien listaamista CA:sta ei kuulu siihen joukkoon. Tämä tarkoittaa, että sertifikaatissa mainittu DNS -nimi ei ole valtuutettu lause.  
 Mainitsimme myös avaimen haltijan nimen. SSL Serverin tapauksessa tämä nimi kuuluu mitä luultavimmin jollekin yritykselle. Niin kuin DNS-nimen kohdalla, yritysnimikkeistäkin vastaa jonkinlainen viranomainen, eivätkä selaimien sisältävät CA:t eivät kuulu myöskään tähän  joukkoon. 
 
+
+**Onko käyttäjä osa turvallisuussuunnittelua?**  
+Oletetaanko turvallisuuden suunnittelussa, että käyttäjä toimii parhaiden käytäntöjen mukaan? Oletetaanko, että käyttäjä tarkastaa käyttämänsä sivun sertifikaatit ja toimii saamansa tiedon perusteella. Sivun sertifikaatti voi olla täysin liittymätön siihen sivuun jolla käyttäjä vierailee, eikä tämä tiedo ole itsestään näkyvillä. Entä osaako käyttäjä hyödyntää saamaansa tietoa?  
+Jos käyttäjä on osa turvallisuussuunnittelua, voi hänen huolimattomuutensa rikkoa muuten toimivan turvallisuuden asetelman.
+
 Tähän tiivistetty lista muista heikkouksista myöhemmin..
 [[3](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
 
