@@ -179,7 +179,7 @@ Sertifikaatit eivät itsestään luo turvallisuutta, vaan niistä saatavan hyöd
 - Vaatiiko näiden sertifikaattien oikeanlainen käyttö toimintaa käyttäjän taholta?
 SSL yhteyden muodostuminen on helppo todeta selainta käytettäessä (vihreä lukko), mutta oletetaanko, että käyttäjä tarkistaa kenen kanssa hän on oikeasti salatussa yhteydessä? Jos et lue vastaanottamaasi sertifikaattia, et saa tätä selville.                     
 - Vaikka lukisitkin sertifikaatin, et välttämättä tunnista toista osapuolta, mutta voit ainakin arvioida paremmin, että     
-haluatko jakaa salaista tietoa.
+haluatko jakaa salaista tietoa.  
 [[3](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
 
 
