@@ -1,4 +1,4 @@
-# Testausraportti: OCSP-liikenteen häirintä
+# Testausraportti: OCSP-viestiliikenteen häirintä
 ## Työkalut
 Käytimme tässä testauksessa työkaluina Burp Suitea sekä OWASPin Zed Attack Proxyä (ZAP). Näiden verkkoliikenneanalyysityökalujen avulla teimme hallittua liikenteen uudelleenohjausta ja suodatusta, jonka tavoitteena oli häiritä tai kokonaan estää Online Certificate Status Protocol (OCSP) -viestien kulkua. 
 
