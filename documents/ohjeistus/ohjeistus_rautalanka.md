@@ -9,7 +9,7 @@ ja selittää mitä ne käytännössä ovat.
 Miksi sertifikaatteja käytetään?
 Digitaaliset sertifikaatit ovat laajimmin hyväksytty ratkaisu tiedon suojaamiseksi kahden tahon välillä. Niihin sisältyy omat haasteensa ja puutteensa, mutta ne ovat tällä hetkellä ainoa helposti skaalautuva ratkaisu. Lisäksi voidaan sanoa, ettei ole  realistista odottaa täydellistä ratkaisua, vaan on kannattavampaa ottaa käyttöön uusia teknologioita, jotka vastaavat tietoturvan tarpeisiin riittävällä tasolla. Näistä ratkaisuista voidaan kuitenkin aina luopua, kun parempia menetelmiä innovoidaan.
 
-Sertifikaattien käyttö ei välttämättä ilmene tavalliselle ihmiselle muuten kuin *s*-kirjaimena osoiterivillä. Moni ei välttämättä myöskään edes tarkista, onko yhteys sivuun turvallinen. Tähän on kuitenkin tulossa muutos, kun selaimet alkavat varoittamaan käyttäjiä suojaamattomista verkkosivuista. Tämä kiinnittää käyttäjän huomion puutteisiin ja vaikuttaa tätä kautta suoraan esimerkiksi verkkokauppojen menekkiin.
+Sertifikaattien käyttö ei välttämättä ilmene tavalliselle ihmiselle muuten kuin *s*-kirjaimena osoiterivillä (http:// vs. https://). Moni ei välttämättä myöskään edes tarkista, onko yhteys sivuun turvallinen. Tähän on kuitenkin tulossa muutos, kun selaimet alkavat varoittamaan käyttäjiä suojaamattomista verkkosivuista. Tämä kiinnittää käyttäjän huomion puutteisiin ja vaikuttaa tätä kautta suoraan esimerkiksi verkkokauppojen menekkiin, mikäli palvelu ei ole sertifikaatin puutteellisuuden vuoksi käytettävissä.
 
 
 ## 4. Julkisen avaimen kryptografia ##  
