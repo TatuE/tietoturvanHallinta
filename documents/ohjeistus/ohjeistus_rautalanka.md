@@ -1,6 +1,4 @@
-## Esiasteinen ehdotus ohjeistuksen rakenteesta ##
-
-## 1. Esipuhe - Mitä? Miksi? ##
+## 1. Esipuhe ##
 
 Ohjeistuksemme käsittelee asiaa, joka esiintyy lähes jokaisen ihmisen arjessa, tiesivät he sitä tai eivät. Nämä käsitteet ovat monille
 tuttuja, mutta monet eivät oikeasti tiedä mitä niillä tarkoitetaan. Siksi tärkeä osa projektiamme on avata nämä käsitteet 
@@ -12,7 +10,7 @@ Digitaaliset sertifikaatit ovat laajimmin hyväksytty ratkaisu tiedon suojaamise
 Sertifikaattien käyttö ei välttämättä ilmene tavalliselle ihmiselle muuten kuin *s*-kirjaimena osoiterivillä (http:// vs. https://). Moni ei välttämättä myöskään edes tarkista, onko yhteys sivuun turvallinen. Tähän on kuitenkin tulossa muutos, kun selaimet alkavat varoittamaan käyttäjiä suojaamattomista verkkosivuista. Tämä kiinnittää käyttäjän huomion puutteisiin ja vaikuttaa tätä kautta suoraan esimerkiksi verkkokauppojen menekkiin, mikäli palvelu ei ole sertifikaatin puutteellisuuden vuoksi käytettävissä.
 
 
-## 4. Julkisen avaimen kryptografia ##  
+## 2. Julkisen avaimen kryptografia ##  
 
 Julkisen avaimen kryptografiassa kerralla luodaan kaksi avainta, yksityinen ja julkinen.
 
@@ -88,7 +86,7 @@ Vastaus on melko yksinkertainen: selaimet joita käytämme, luottavat eri CA:ihi
 
 
 
-## 6. Mikä on Web of Trust? ##  
+## 3. Mikä on Web of Trust? ##  
 
 CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse. 
@@ -166,7 +164,7 @@ Alla viellä kuva, miltä allekirjoitettu viesti näyttää.
 
 
 
-## 7. Mitä ongelmia niissä on? ##  
+## 4. Mitä ongelmia niissä on? ##  
 
 ### PKI:n ongelmakohdat ###  
 
@@ -220,22 +218,13 @@ haluatko jakaa salaista tietoa.
 [[3](https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt)]
 
 
-
-## 8. Miten ne vertautuvat keskenään? ##  
-
 --------------------------------------------------------------------------------------------
 
-**Puheeksi tulleita asioita / ehdotuksia:**  
-Liiketoiminnan jatkuvuuden turvaaminen  
-Tarkistuslista  
- -Bios kello
-Testaus
-Yhteydenotto CRL hallintaan tarpeen mukaan (oma cert esim. vanhenee, otetaan yhteyttä ja saadaan oma certti taas kuntoon)
 
-Lähteet:  
+### Lähteet: ###  
 1. https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf  
 2. https://en.wikipedia.org/wiki/Root_certificate  
 3. https://www.schneier.com/academic/paperfiles/paper-pki-ft.txt  
-4. https://www.gnupg.org/
-5. https://www.youtube.com/watch?v=Lq-yKJFHJpk
-6. https://cran.r-project.org/web/packages/gpg/vignettes/intro.html
+4. https://www.gnupg.org/  
+5. https://www.youtube.com/watch?v=Lq-yKJFHJpk  
+6. https://cran.r-project.org/web/packages/gpg/vignettes/intro.html  
