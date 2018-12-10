@@ -1,6 +1,6 @@
 ## Esiasteinen ehdotus ohjeistuksen rakenteesta ##
 
-## 1. Esipuhe Mitä? Miksi? ##
+## 1. Esipuhe - Mitä? Miksi? ##
 
 Ohjeistuksemme käsittelee asiaa, joka esiintyy lähes jokaisen ihmisen arjessa, tiesivät he sitä tai eivät. Nämä käsitteet ovat monille
 tuttuja, mutta monet eivät oikeasti tiedä mitä niillä tarkoitetaan. Siksi tärkeä osa projektiamme on selvittää, mitä nämä käsitteet 
