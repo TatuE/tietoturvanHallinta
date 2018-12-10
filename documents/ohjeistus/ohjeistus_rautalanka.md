@@ -86,7 +86,7 @@ Vastaus on melko yksinkertainen: selaimet joita käytämme, luottavat eri CA:ihi
 
 
 
-## 3. Mikä on Web of Trust? ##  
+## 3. PGP ja WoT ##  
 
 CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse. 
