@@ -4,13 +4,12 @@
 
 Ohjeistuksemme käsittelee asiaa, joka esiintyy lähes jokaisen ihmisen arjessa, tiesivät he sitä tai eivät. Nämä käsitteet ovat monille
 tuttuja, mutta monet eivät oikeasti tiedä mitä niillä tarkoitetaan. Siksi tärkeä osa projektiamme on avata nämä käsitteet 
-ja selittää miten ne käytännössä ovat.
+ja selittää mitä ne käytännössä ovat.
 
 Miksi sertifikaatteja käytetään?
 Digitaaliset sertifikaatit ovat laajimmin hyväksytty ratkaisu tiedon suojaamiseksi kahden tahon välillä. Niihin sisältyy omat haasteensa ja puutteensa, mutta ne ovat tällä hetkellä ainoa helposti skaalautuva ratkaisu. Lisäksi voidaan sanoa, ettei ole  realistista odottaa täydellistä ratkaisua, vaan on kannattavampaa ottaa käyttöön uusia teknologioita, jotka vastaavat tietoturvan tarpeisiin riittävällä tasolla. Näistä ratkaisuista voidaan kuitenkin aina luopua, kun parempia menetelmiä innovoidaan.
 
-Selaimet alkavat varoittaa turvattomista sivuista --> Certit ajankohtaisia
-
+Sertifikaattien käyttö ei välttämättä ilmene tavalliselle ihmiselle muuten kuin *s*-kirjaimena osoiterivillä. Moni ei välttämättä myöskään edes tarkista, onko yhteys sivuun turvallinen. Tähän on kuitenkin tulossa muutos, kun selaimet alkavat varoittamaan käyttäjiä suojaamattomista verkkosivuista. Tämä kiinnittää käyttäjän huomion puutteisiin ja vaikuttaa tätä kautta suoraan esimerkiksi verkkokauppojen menekkiin.
 
 
 ## 4. Julkisen avaimen kryptografia ##  
