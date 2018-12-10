@@ -7,11 +7,18 @@ vaiheet
 - valmis ohjeistus
 
 haasteet / ongelmat
+- Ryhmätyön aiheen valinta
 - Olettamukset aiheeseen liittyen
 - Lähteiden valinta
 - Aihealueen / lähestymistavan valitseminen
 - Kirjoitetaan rinnakkain WoT ja CA-mallista, mutta niitä ei oikein voi vertailla, niin kuin alun perin olimme suunnitelleet.
 - Eheän kokonaisuuden luonti
 
-Alku: Tutustuminen aiheeseen.
-- Termit kuten sertifikaatit ja avaimet olivat tuttuja, mutta kokonaisuus oli tuntematon. Paras keino mielestämme oli tutustua aiheeseen videoiden avulla. Koko ryhmämme työskenteli aluksi tiedonhaun parissa, ja PKI (Public Key Infrastructure) oli luonnollinen aihe aloittaa.
+
+--------------------------------------------------------
+
+Vaihe: Tiedonhaku  
+Termit kuten sertifikaatit ja avaimet olivat ryhmällemme entuudestaan tuttuja, mutta kokonaisuus oli tuntematon. Paras keino oli mielestämme tutustua aiheeseen videoiden avulla. Koko ryhmämme työskenteli aluksi tiedonhaun parissa, ja PKI (Public Key Infrastructure) oli käsite, josta oli luonnollista aloittaa.
+
+Ongelma: Mitä?  
+Aiheesta oppiminen toi mukanaan myös kysymyksiä. Mm. sen, että mikä projektimme varsinainen aihe on? Lukemamme ei välttämättä vastannut odotuksia, ja käytimme pitkän aikaa aiheen tai lähestymistavan valinnassa.Lukiessamme aiheesta lisää, kävi selväksi, että heikkouksista ei löydy varsinkaan ajankohtaista tietoa.
