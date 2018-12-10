@@ -77,6 +77,12 @@ Mitä edellisen mallin ongelmia tämä rakenne ratkaisee? Kun olemassa on monta 
 RA:n kumoaminen (jos RA menettää luotettavuutensa) toimii tässä mallissa yksinkertaisesti. CA voi yksinkertaisesti vastata kyseisen RA:n pyyntöihin, jolloin se ei kykene enää suorittamaan tehtäviään.
 
 Tämä malli kuitenkin sisältää muilta osin samat heikkoudet kuin yksittäisen CA:n infrastruktuuri.  
+
+
+### Nykyinen tilanne ###
+
+Käytössä ei ole vain yhtä ainoaa mallia. Erilaiset mallit toimivat erilaisissa ympäristöissä ja niin kauan kuin nykyiset teknologiat ovat relevantteja, tämä tuskin tulee muuttumaan. Normaalin käyttäjän on kuitenkin hyvä tietää mistä hänen avaimensa tulevat.
+Vastaus on melko yksinkertainen: selaimet joita käytämme, luottavat eri CA:ihin. Nämä ennaltamääritellyt luottamussuhteet mahdollistavat turvalliset yhteydet verkkosivuille, ilman että käyttäjän tarvitsee tehdä mitään.
 [[1](https://pdfs.semanticscholar.org/0fc4/0e88e1aec293ddfbbc5b82c3e294e8c0ed14.pdf)]
 
 
