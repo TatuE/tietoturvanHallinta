@@ -9,8 +9,9 @@ Digitaaliset sertifikaatit ovat laajimmin hyväksytty ratkaisu tiedon suojaamise
 
 Sertifikaattien käyttö ei välttämättä ilmene tavalliselle ihmiselle muuten kuin *s*-kirjaimena osoiterivillä (http:// vs. https://). Moni ei välttämättä myöskään edes tarkista, onko yhteys sivuun turvallinen. Tähän on kuitenkin tulossa muutos, kun selaimet alkavat varoittamaan käyttäjiä suojaamattomista verkkosivuista. Tämä kiinnittää käyttäjän huomion puutteisiin ja vaikuttaa tätä kautta suoraan esimerkiksi verkkokauppojen menekkiin, mikäli palvelu ei ole sertifikaatin puutteellisuuden vuoksi käytettävissä.
 
+## 2. Sanastoa ##
 
-## 2. Julkisen avaimen kryptografia ##  
+## 3. Julkisen avaimen kryptografia ##  
 
 Julkisen avaimen kryptografiassa kerralla luodaan kaksi avainta, yksityinen ja julkinen.
 
@@ -32,7 +33,7 @@ Toimii siis samalla tavalla, kuin käsin tehty allekirjoitus, paitsi että täm�
 
 Esimerkki hyvästä allekirjoituksen käyttökohteesta olisi käyttäjän palveluntarjoajien sähköpostit. Lukuisat kalasteluviestit yrittävät jäljitellä oikean palveluntarjoajan sähköposteja, ja näin saada käyttäjää syöttämään kirjautumistunnuksensa rikollisten palveluihin. Jos palveluntarjoajat käyttäisivät digitaallista allekirjoitusta viesteissään, voisi käyttäjä varmistua, että viestin lähettäjä on se, kuka tämä väittää olevansa.
 
-## 5. Mikä on PKI? ##  
+## 4. Mikä on PKI? ##  
 Jos kaksi tahoa (Alice & Bob) tuntevat omat yksityiset avaimensa ja toistensa julkiset avaimet, he voivat kommunikoida turvallisesti lukuisien julkiseen avaimeen pohjautuvien protokollien avulla. Näihin protokolliin lukeutuvat mm. IPSec, PGP ja SSL. Kysymys kuuluukin, että miten he tuntevat toisensa?  
 PKI:n (Public Key Infrastructure) tarkoitus onkin luoda turvallinen, tehokas ja käytännöllinen tapa löytää julkisia avaimia. Nimensä mukaan kyseessä on infrastruktuuri, joka voi rakentua monilla eri tavoilla. Käytössä on lukuisia erilaisia malleja, jotka eroavat toisistaan turvallisuuden, skaalautuvuuden ja rakenteen mukaan. Tutustumme näihin erilaisiin malleihin hieman myöhemmin.  
 Julkisen avaimen sertifikaateissa on olemassa standardeja, jotka pystyvät tukemaan erilaisten PKI-mallien vaatimuksia. Laajimmin käytetty näistä standardeista on [X.509](https://en.wikipedia.org/wiki/X.509). Tässä kappaleessa käymme läpi joitakin PKI -malleja, puhuen niiden vahvuuksista ja heikkouksista.
@@ -86,7 +87,7 @@ Vastaus on melko yksinkertainen: selaimet joita käytämme, luottavat eri CA:ihi
 
 
 
-## 3. PGP ja WoT ##  
+## 5. PGP ja WoT ##  
 
 CentralAuthority(CA)-mallin sijaan, jossa luottamus ostetaan CA-sertifikaation muodossa tällä voittoa tekevältä yritykseltä, 
 PrettyGoodPrivacy(PGP)-mallissa käyttäjät luovat ja määrittelevät luottosuhteensa itse. 
@@ -164,7 +165,7 @@ Alla viellä kuva, miltä allekirjoitettu viesti näyttää.
 
 
 
-## 4. Mitä ongelmia niissä on? ##  
+## 6. Mitä ongelmia niissä on? ##  
 
 ### PKI:n ongelmakohdat ###  
 
