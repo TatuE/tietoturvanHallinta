@@ -11,6 +11,24 @@ Sertifikaattien käyttö ei välttämättä ilmene tavalliselle ihmiselle muuten
 
 ## 2. Sanastoa ##
 
+Alice ja Bob    = Kryptografiassa yleisesti esimerkkeinä käytetyt henkilöt
+CA              = Certificate Authority, Sertifikaattien myöntäjä. Luotettu taho.
+CRL             = Certificate Revocation List, lista sertifikaateista, jotka CA on poistanut käytöstä ennen "parasta ennen" -päiväystä.
+Dekryptaaminen  = Enkryptatun salauksen purkamista.
+Enkryptaaminen  = Tiedon salaamista salausalgoritmia hyväksikäyttäen.
+GPG             = GnuPG, Gnu Privacy Guard, ohjelma PGP-avainten luomiseen ja hallintaan.
+HTTP            = Hypertext Transfer Protocol on suojaamaton protokolla, jota selaimet ja WWW-palvelimet käyttävät tiedonsiirtoon.
+HTTPS           = Hypertext Transfer Protocol Secure on suojattu versio HTTP:stä.
+IPSec           = Internet Protocol Security, IP-pakettien suojaamiseen kehitetty protokolla.
+Kryptografia    = Salakirjoitustekniikkaa tutkivaa ja kehittävää tiedettä. Vastakohta on kryptoanalyysi, jossa pyritään purkamaan salaus.
+PKI             = Public Key Infrastructure, Julkisen avaimen infrastruktuuri.
+PGP             = Pretty Good Privacy, avoimen lähdekoodin julkisen avaimen järjestelmä.
+RA              = Registration Authority, toimii yleensä välittäjänä CA:n ja asiakasyrityksen välillä
+Sertifikaatti   = Henkilön tai organisaation digitaalinen allekirjoitus tai tunniste.
+SSL(vanha)/TLS  = Security Sockets Layer/Transport Layer Security, internet sovelluksille kehitetty salausprotokolla. TLS uusi.
+WoT             = Web of Trust, PGP-avain käyttäjien luoma verkosto.
+X.509           = Standardi, joka määrittelee julkisen avaimen sertifikaatit. PKI peräsin tästä.
+
 ## 3. Julkisen avaimen kryptografia ##  
 
 Julkisen avaimen kryptografiassa kerralla luodaan kaksi avainta, yksityinen ja julkinen.
@@ -110,7 +128,7 @@ Avainpari voidaan luoda mm. gpg ohjelmalla.
 5. Seuraavaksi prosessi luo ja tulostaa avaimet näytölle.
 
 
-pub on julkinen avain, joka lähetetään avainpalvelimelle. Näitä on useita (mm. MIT ylläpitää), ja ne jakavat tietoa keskenään. Täten ennen pitkää julkinen avain leviää kaikille avainpalvelimille.
+pub on julkinen avain, joka lähetetään avainpalvelimelle. Näitä on useita (mm. MIT (Massachusetts Institute of Technology) ylläpitää), ja ne jakavat tietoa keskenään. Täten ennen pitkää julkinen avain leviää kaikille avainpalvelimille.
 pub on julkinen avain, joka lähetetään avainserverille.
 
 ![send-key](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/key-send.png?token=AdzIIZYlt2DPRX9LOftaFMHrm6L7c0U9ks5cE4JgwA%3D%3D)  
