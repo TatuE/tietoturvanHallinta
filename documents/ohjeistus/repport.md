@@ -29,3 +29,28 @@ Ryhmämme ei kokenut hedelmälliseksi jatkaa työskentelymallia, jossa koko proj
 Ohjeistuksen aloitimme luomalla alustavan kehyksen projektin alkuvaiheiden keskustelujen perusteella. Tähän sisältyi intro julkisen avaimen infrastruktuurista, PKI, WoT ja miten ne vertautuvat toisiinsa. Teimme selkeän työjaon: Saku tutki PKI:ta ja Eino WoT:ia. Teimme nämä osuudet ensin valmiiksi, ja sen jälkeen yhteisesti intron ja outron yhteisten keskusteluiden perusteella.
 
 Ongelma: Hidas alku, mielenkiinto projektiin laski. Asiaa ei myöskään helpottanut, että monialaprojekti tapahtui rinnalla.
+
+
+Vaihe: Rautalankamalli ohjeistuksen rungosta.  
+Aloimme työstämään ohjeistuksen päälinjoja. Tämän tehtyämme työskentely helpottui huomattavasti, koska tiedonhaulle syntyi konkreettinen tavoite. Google Scholar oli hyvä lähde materiaalin etsintään, koska normaalit hakutulokset toivat huomattavan paljon tuloksia, joilla oli kaupallisia sidoksia, varsinkin CA-mallien osalta.
+
+Haaste: Ohjeistuksen osalta relevantin materiaalin valitseminen. Lähteiden luotettavuus. Hankalan aihekokonaisuuden avaaminen helposti ymmärrettävään muotoon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
