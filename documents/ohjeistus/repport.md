@@ -26,5 +26,6 @@ Aiheesta oppiminen toi mukanaan myös kysymyksiä. Mm. sen, että mikä projekti
 
 Vaihe: Aiheen valinta ja työtaakan jakaminen  
 Ryhmämme ei kokenut hedelmälliseksi jatkaa työskentelymallia, jossa koko projektiryhmä pyrkii etsimään haavoittuvuuksia. Tämän johdosta jaoimme projektiryhmämme kahtia: E ja S lähtivät suunnittelemaan ohjeistusta, kun taas J ja T ottivat oman osuutensa. 
+Ohjeistuksen aloitimme luomalla alustavan kehyksen projektin alkuvaiheiden keskustelujen perusteella. Tähän sisältyi intro julkisen avaimen infrastruktuurista, PKI, WoT ja miten ne vertautuvat toisiinsa. Teimme selkeän työjaon: Saku tutki PKI:ta ja Eino WoT:ia. Teimme nämä osuudet ensin valmiiksi, ja sen jälkeen yhteisesti intron ja outron yhteisten keskusteluiden perusteella.
 
 Ongelma: Hidas alku, mielenkiinto projektiin laski. Asiaa ei myöskään helpottanut, että monialaprojekti tapahtui rinnalla.
