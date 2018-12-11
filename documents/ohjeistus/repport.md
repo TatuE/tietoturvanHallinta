@@ -42,6 +42,8 @@ Ohjeistuksen kirjoittaminen jäi Einon ja Sakun vastuulle, ja he jakoivat tämä
 Haaste: Ohjeistuksen osalta relevantin materiaalin valitseminen. Lähteiden luotettavuus. Hankalan aihekokonaisuuden avaaminen helposti ymmärrettävään muotoon. Eri aiheiden sovittaminen yhtenäiseksi ohjeistukseksi.
 
 
+Vaihe: Varsinaisen version luonti  
+Saatuamme ohjeistukseen tarpeeksi sisältöä, lähdimme muotoilemaan siitä yhtenäisempää versiota, joka sisälsi tietosisällön lisäksi myös projektiin liittyviä osa-alueita. Sisällön luettaminen muun projektiryhmän kanssa johti mm. toteamukseen siitä, että ohjeistuksen aiheita (WoT vs. CA-mallit) ei kannata vertailla.
 
 
 
