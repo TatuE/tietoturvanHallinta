@@ -30,11 +30,16 @@ Ohjeistuksen aloitimme luomalla alustavan kehyksen projektin alkuvaiheiden kesku
 
 Ongelma: Hidas alku, mielenkiinto projektiin laski. Asiaa ei myöskään helpottanut, että monialaprojekti tapahtui rinnalla.
 
+Vaihe: Rautalankamalli ohjeistuksen rungosta. 
+Keskustelimme koko ryhmän kanssa siitä, mistä ohjeistus voisi koostua. Valmiita malleja tämänkaltaiselle dokumentille ei juurikaan löytynyt, joten päälinjojen luominen jäi puhtaasti ryhmämme vastuulle.
 
-Vaihe: Rautalankamalli ohjeistuksen rungosta.  
-Aloimme työstämään ohjeistuksen päälinjoja. Tämän tehtyämme työskentely helpottui huomattavasti, koska tiedonhaulle syntyi konkreettinen tavoite. Google Scholar oli hyvä lähde materiaalin etsintään, koska normaalit hakutulokset toivat huomattavan paljon tuloksia, joilla oli kaupallisia sidoksia, varsinkin CA-mallien osalta.
+Haaste: Ei vertailukohtia
 
-Haaste: Ohjeistuksen osalta relevantin materiaalin valitseminen. Lähteiden luotettavuus. Hankalan aihekokonaisuuden avaaminen helposti ymmärrettävään muotoon.
+Vaihe: Rautalankamallin täyttäminen.  
+Luotuamme ohjeistuksen pääpisteet, työskentelymme helpottui huomattavasti, koska tiedonhaulle syntyi konkreettinen tavoite. Google Scholar oli hyvä lähde materiaalin etsintään, koska normaalit hakutulokset toivat huomattavan paljon tuloksia, joilla oli kaupallisia sidoksia, varsinkin CA-mallien osalta.
+Ohjeistuksen kirjoittaminen jäi Einon ja Sakun vastuulle, ja he jakoivat tämän aiheen vielä kahteen osaa, joten tutkimus- ja kirjoitustyö tapahtui pää-asiallisesti yksilötyönä.
+
+Haaste: Ohjeistuksen osalta relevantin materiaalin valitseminen. Lähteiden luotettavuus. Hankalan aihekokonaisuuden avaaminen helposti ymmärrettävään muotoon. Eri aiheiden sovittaminen yhtenäiseksi ohjeistukseksi.
 
 
 
