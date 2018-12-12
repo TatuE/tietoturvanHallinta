@@ -45,9 +45,26 @@ Haaste: Ohjeistuksen osalta relevantin materiaalin valitseminen. Lähteiden luot
 Vaihe: Varsinaisen version luonti  
 Saatuamme ohjeistukseen tarpeeksi sisältöä, lähdimme muotoilemaan siitä yhtenäisempää versiota, joka sisälsi tietosisällön lisäksi myös projektiin liittyviä osa-alueita. Sisällön luettaminen muun projektiryhmän kanssa johti mm. toteamukseen siitä, että ohjeistuksen aiheita (WoT vs. CA-mallit) ei kannata vertailla.
 
+------------------------------------------------------------------------
 
+### Työn toteutus ###
 
+Ohjeistus aloitettiin luomalla raaka kehikko ohjeistukselle. Tämä sisälsi intro kappaleen julkisen avaimen järjestelmään, PKI, WoT sekä näiden kahden järjestelmän vertailu keskenään. Sovimme että jaamme vielä ohjeistuksesta vastuun PKI:n ja WoT:in kappaleista kirjoittajien kesken. Sovimme myös, että jokainen suorittaa itsenäisesti tutkimukset omista vastuualueistaan sekä kirjoittaa näitä koskevat kappaleet, ja että muihin kappaleisiin palataan yhdessä. Tarkoituksena oli väitellä PKI:n ja WoT:in ominaisuuksista ja paremmuudesta ja tämän pohjalta luoda vertailu. 
+Saatuamme vastuu alueemme valmiiksi totesimme, että PKI:n ja WoT:in vertailu keskenään toisiaan ei ole tarkoituksenmukaista. Järjestelmät eroavat käyttökohteiltaan huomattavasti toisistaan, joten muutimme viimeisen kappaleen käsittelemään järjestelmien heikkouksia omissa ympäristöissään.
+Tämän ohessa loimme dokumentille myös esipuheen sekä lyhyen selityksen julkisen avaimen kryptografiasta, johon kumpiki PKI ja WoT -järjestelmät perustuvat.
+Koska ohjeistus oli tarkoitettu peruskäyttäjälle, ja kuitenkin aiheen takia sisältää pakostikkin teknistä kieltä, lisäsimme ohjeistukseen sanaston siinä käytetyistä termeistä.
 
+### Tulokset ###
+
+Tuloksena tästä osaprojektista syntyi ohjeistus dokumentti, Sertifikaattien Salattu maailma.
+Ohjeistus koostuu seruvaavista kappaleista:
+
+1. Esipuhe
+2. Sanatoa
+3. Julkisen avaimen kryptografia
+4. Mikä on PKI?
+5. PGP ja WoT
+6. Mitä ongelmia niissä on?
 
 
 
