@@ -69,3 +69,7 @@ Ohjeistus koostuu seruvaavista kappaleista:
 4. Mikä on PKI?
 5. PGP ja WoT
 6. Mitä ongelmia niissä on?
+
+Mielestämme oheistuksesta tuli tarkoituksenmukainen, eli se avaa sertifikaatien maailmaa peruskäyttäjälle.  
+Olemme koe luetuttaneet ohjeistuksen yhdellä henkilöllä, joka tunsi sertifikaattien käsitteen ennalta töiden puolesta, kun yrityksen sertifikaatti oli vanhentunut. Kuitenkaan syvällistä tietoa henkilöllä ei näiden toiminnasta ennalta ollut.  
+Tämän koehenkilön mukaan ohjeistus avasi aihetta hyvin ja oli selkeä ja helppolukuinen.
