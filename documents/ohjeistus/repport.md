@@ -56,6 +56,8 @@ Ohjeistus aloitettiin luomalla raaka kehikko ohjeistukselle. Tämä sisälsi int
 Saatuamme vastuu alueemme valmiiksi totesimme, että PKI:n ja WoT:in vertailu keskenään toisiaan ei ole tarkoituksenmukaista. Järjestelmät eroavat käyttökohteiltaan huomattavasti toisistaan, joten muutimme viimeisen kappaleen käsittelemään järjestelmien heikkouksia omissa ympäristöissään.
 Tämän ohessa loimme dokumentille myös esipuheen sekä lyhyen selityksen julkisen avaimen kryptografiasta, johon kumpiki PKI ja WoT -järjestelmät perustuvat.
 
+Koska ohjeistus on tarkoitettu peruskäyttäjälle, ja kuitenkin aiheen luenteen takia sisältää pakostikin paljon teknistä kieltä, lisäsimme ohjeistukseen vielä sanaston siinä käytetyistä termeistä.
+
 ### Tulokset ###
 
 Tuloksena tästä osaprojektista syntyi ohjeistus dokumentti, Sertifikaattien Salattu maailma.  
@@ -67,16 +69,3 @@ Ohjeistus koostuu seruvaavista kappaleista:
 4. Mikä on PKI?
 5. PGP ja WoT
 6. Mitä ongelmia niissä on?
-
-
-
-
-
-
-
-
-
-
-
-
-
