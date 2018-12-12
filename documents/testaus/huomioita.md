@@ -1,4 +1,4 @@
-# Välimieshyökkäys Firefoxiin etänä
+# Testausraportti: Välimieshyökkäys Firefoxiin etänä
 ## Periaate 
 * Firefoxin liikenteen voi ohjata kulkemaan suoraan proxyn kautta
 * Proxyn osoite voi olla mikä tahansa
@@ -13,47 +13,29 @@
 * Proxyn voi toteuttaa OWASP ZAP:illa
   * Työkalut myös sertifikaatin luomiseen
 
-## Vaikutus
+### Vaikutus
 Jos Firefoxiin 
-* asennetaan etänä saastutettu sertifikaatti, joka sallii liikenteen kierrättämisen proxyn kautta,
-* määritetään etänä proxyn asetukset, sekä
-* tehdään edellämainitut käyttäjän koskaan huomaamatta,
+* asennetaan etänä saastutettu sertifikaatti, joka sallii liikenteen kierrättämisen proxyn kautta, sekä
+* määritetään etänä proxyn asetukset,
 
 voidaan täysin käyttäjän huomaamatta ohjata liikenne toisen palvelimen kautta, ja poimia liikenteestä salaamattomia tietoja suoraan. 
 
 ## "Käytännön" toteutus
-Proxyasetusten muuttaminen onnistuu yhtä tiedostoa muuttamalla. Proxy määritellään firefoxin profiilikansiossa olevaan `prefs.js` -tiedostoon, kahteen eri muuttujaan. Linux-järjestelmissä tiedosto sijaitsee käyttäjän omassa kotihakemistossa, ja käyttäjällä on täydet oikeudet sen muuttamiseen. 
+Proxyasetusten muuttaminen onnistuu yhtä tiedostoa muuttamalla. Proxy määritellään Firefoxin profiilikansiossa olevaan `prefs.js` -tiedostoon, kahteen eri muuttujaan. Linux-järjestelmissä tiedosto sijaitsee käyttäjän omassa kotihakemistossa, joten käyttäjällä on täydet oikeudet sen muuttamiseen. 
 
-Oman sertifikaatin lisääminen selaimeen vaatii hieman enemmän työtä. Sen voi toteuttaa joko
+~~Oman sertifikaatin lisääminen selaimeen vaatii hieman enemmän työtä. Sen voi toteuttaa joko~~
 * lisäämällä uuden sertifikaatin tietokantaan bash-skriptin tai vastaavan avulla
 * [tekemällä testikäyttäjän, lisäämällä tälle oman sertifikaatin ja tämän jälkeen kopioimalla sertifikaattitietokannan uusile käyttäjille](https://support.mozilla.org/en-US/questions/901549).
 
-# OCSP protokolla.
 
-- OCSP POST response on allekirjoitettu, joten sen sisällön vaikuttaminen ilman että tiiviste muuttuu on vaikeaa/mahdodonta. Ajatus viestin manipuloinnista proxyn kautta tulee harkita uudelleen, tällä hetkellä vaikuttaa epätodennäköiseltä.
-
-Vaihtoehto OCSP viestin häiritsemiseksi on CA palvelimen DoS hyökkäys (se miten tämä testataan on vähän siinä ja tossa). 
-
-# Root CA
-
+## Root CA
 Jos kohde käyttäjäkoneelle on pääsy, voi Root CA:t poistaa selaimista, mikä estää varmenteiden tarkistamisen. Tähän on olemassa ainakin Mozillalla NSS jolla pystyy määrittelemään varmenteita halutusti. Tämän luulisi voivan toteuttaa keskitetyn hallinnan kautta. 
 
-#SslSniff välimieshyökkäys
+## SslSniff välimieshyökkäys
 
-Ohjelman kautta voi välittää tai allekirjoittaa uusia varmenteita 
-kohde koneelle, tämä edellyttää välimieshyökkäystä ennen ohjelman 
-suorittamista. 
-välimieshyökkäys tapahtuu suorittamalla kohdekoneelle tai 
+Ohjelman kautta voi välittää tai allekirjoittaa uusia varmenteita kohdekoneelle, tämä edellyttää välimieshyökkäystä ennen ohjelman suorittamista. välimieshyökkäys tapahtuu suorittamalla kohdekoneelle tai 
 verkkosegmentille ARPmyrkytys käyttäen arpspoof ohjelmaa.
 Hyötyä projektin kannalta on liikenteen salakuuntelu 
 salaamattomana, sekä mahdollisuus OCSP pakettien pudottamiselle 
 mikä estää halutun palvelun varmenteen varmistamisen 
 kohdekoneella.
-
-
-Seuraavia aiheta mitä tutkia:
-
-SSL/TLS analyysi (Kali Linux).
-Proxy = OCSP pakettien pudottaminen
-Hyökkäys WoT vastaan
-
