@@ -31,7 +31,7 @@ Ohjeistuksen aloitimme luomalla alustavan kehyksen projektin alkuvaiheiden kesku
 Ongelma: Hidas alku, mielenkiinto projektiin laski. Asiaa ei myöskään helpottanut, että monialaprojekti tapahtui rinnalla.
 
 Vaihe: Rautalankamalli ohjeistuksen rungosta. 
-Keskustelimme koko ryhmän kanssa siitä, mistä ohjeistus voisi koostua. Valmiita malleja tämänkaltaiselle dokumentille ei juurikaan löytynyt, joten päälinjojen luominen jäi puhtaasti ryhmämme vastuulle.
+Keskustelimme koko ryhmän kanssa siitä, mistä ohjeistus voisi koostua. Valmiita malleja tämänkaltaiselle dokumentille ei juurikaan löytynyt, joten päälinjojen luominen jäi puhtaasti ryhmämme vastuulle. Alkuperäinen kehikko piti sisällään intro osuuden, selitykset PKI:n ja WoT:in toiminnasta sekä näiden vertailua keskenään. Pääasiassa tämä piti paikkansa, mutta vertailu näiden kahden välillä koettiin turhaksi niiden erillaisten käyttötarkoitusten takia. Vertailu kappaleen päätimme täten korvata puhumalla järjestelmien heikkoudesta erillään, niiden omissa käyttökohteissaan.
 
 Haaste: Ei vertailukohtia
 
