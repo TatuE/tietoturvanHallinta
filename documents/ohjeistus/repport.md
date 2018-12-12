@@ -49,14 +49,14 @@ Saatuamme ohjeistukseen tarpeeksi sisältöä, lähdimme muotoilemaan siitä yht
 
 ### Työn toteutus ###
 
-Ohjeistus aloitettiin luomalla raaka kehikko ohjeistukselle. Tämä sisälsi intro kappaleen julkisen avaimen järjestelmään, PKI, WoT sekä näiden kahden järjestelmän vertailu keskenään. Sovimme että jaamme vielä ohjeistuksesta vastuun PKI:n ja WoT:in kappaleista kirjoittajien kesken. Sovimme myös, että jokainen suorittaa itsenäisesti tutkimukset omista vastuualueistaan sekä kirjoittaa näitä koskevat kappaleet, ja että muihin kappaleisiin palataan yhdessä. Tarkoituksena oli väitellä PKI:n ja WoT:in ominaisuuksista ja paremmuudesta ja tämän pohjalta luoda vertailu. 
+Ohjeistus aloitettiin luomalla raaka kehikko ohjeistukselle. Tämä sisälsi intro kappaleen julkisen avaimen järjestelmään, PKI, WoT sekä näiden kahden järjestelmän vertailu keskenään. Sovimme että jaamme vielä ohjeistuksesta vastuun PKI:n ja WoT:in kappaleista kirjoittajien kesken. Sovimme myös, että jokainen suorittaa itsenäisesti tutkimukset omista vastuualueistaan sekä kirjoittaa näitä koskevat kappaleet, ja että muihin kappaleisiin palataan yhdessä. Tarkoituksena oli väitellä PKI:n ja WoT:in ominaisuuksista ja paremmuudesta ja tämän pohjalta luoda vertailu.  
 Saatuamme vastuu alueemme valmiiksi totesimme, että PKI:n ja WoT:in vertailu keskenään toisiaan ei ole tarkoituksenmukaista. Järjestelmät eroavat käyttökohteiltaan huomattavasti toisistaan, joten muutimme viimeisen kappaleen käsittelemään järjestelmien heikkouksia omissa ympäristöissään.
-Tämän ohessa loimme dokumentille myös esipuheen sekä lyhyen selityksen julkisen avaimen kryptografiasta, johon kumpiki PKI ja WoT -järjestelmät perustuvat.
+Tämän ohessa loimme dokumentille myös esipuheen sekä lyhyen selityksen julkisen avaimen kryptografiasta, johon kumpiki PKI ja WoT -järjestelmät perustuvat.  
 Koska ohjeistus oli tarkoitettu peruskäyttäjälle, ja kuitenkin aiheen takia sisältää pakostikkin teknistä kieltä, lisäsimme ohjeistukseen sanaston siinä käytetyistä termeistä.
 
 ### Tulokset ###
 
-Tuloksena tästä osaprojektista syntyi ohjeistus dokumentti, Sertifikaattien Salattu maailma.
+Tuloksena tästä osaprojektista syntyi ohjeistus dokumentti, Sertifikaattien Salattu maailma.  
 Ohjeistus koostuu seruvaavista kappaleista:
 
 1. Esipuhe
