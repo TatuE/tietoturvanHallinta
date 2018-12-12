@@ -49,10 +49,12 @@ Saatuamme ohjeistukseen tarpeeksi sisältöä, lähdimme muotoilemaan siitä yht
 
 ### Työn toteutus ###
 
-Ohjeistus aloitettiin luomalla raaka kehikko ohjeistukselle. Tämä sisälsi intro kappaleen julkisen avaimen järjestelmään, PKI, WoT sekä näiden kahden järjestelmän vertailu keskenään. Sovimme että jaamme vielä ohjeistuksesta vastuun PKI:n ja WoT:in kappaleista kirjoittajien kesken. Sovimme myös, että jokainen suorittaa itsenäisesti tutkimukset omista vastuualueistaan sekä kirjoittaa näitä koskevat kappaleet, ja että muihin kappaleisiin palataan yhdessä. Tarkoituksena oli väitellä PKI:n ja WoT:in ominaisuuksista ja paremmuudesta ja tämän pohjalta luoda vertailu.  
+Projektin toinen osatuote oli luoda ohjeistus sertifikaateista peruskäyttäjälle. Peruskäyttäjällä tarkoitetaan henkilöä, joka saattaa tiedostaa sertifikaattien olemassaolon esimerkiksi s-kirjaimesta selaimen osoiterivillä (http:// vs. https://) tai selaimen varoitusviestistä verkkosivusta. Henkilöllä ei kuitenkaan ole sen syvällisempää tietoa mitä sertifikaatit ovat, tai miten ne toimivat.
+
+Ohjeistus aloitettiin luomalla raaka kehikko ohjeistukselle. Tämä sisälsi intro kappaleen julkisen avaimen järjestelmään, PKI, WoT sekä näiden kahden järjestelmän vertailu keskenään. Sovimme että jaamme vielä ohjeistuksesta vastuun PKI:n ja WoT:in kappaleista kirjoittajien kesken. Sovimme myös, että jokainen suorittaa itsenäisesti tutkimukset omista vastuualueistaan sekä kirjoittaa näitä koskevat kappaleet, ja että muihin kappaleisiin palataan yhdessä. Tarkoituksena oli väitellä PKI:n ja WoT:in ominaisuuksista ja paremmuudesta ja tämän pohjalta luoda vertailu. 
+
 Saatuamme vastuu alueemme valmiiksi totesimme, että PKI:n ja WoT:in vertailu keskenään toisiaan ei ole tarkoituksenmukaista. Järjestelmät eroavat käyttökohteiltaan huomattavasti toisistaan, joten muutimme viimeisen kappaleen käsittelemään järjestelmien heikkouksia omissa ympäristöissään.
-Tämän ohessa loimme dokumentille myös esipuheen sekä lyhyen selityksen julkisen avaimen kryptografiasta, johon kumpiki PKI ja WoT -järjestelmät perustuvat.  
-Koska ohjeistus oli tarkoitettu peruskäyttäjälle, ja kuitenkin aiheen takia sisältää pakostikkin teknistä kieltä, lisäsimme ohjeistukseen sanaston siinä käytetyistä termeistä.
+Tämän ohessa loimme dokumentille myös esipuheen sekä lyhyen selityksen julkisen avaimen kryptografiasta, johon kumpiki PKI ja WoT -järjestelmät perustuvat.
 
 ### Tulokset ###
 
