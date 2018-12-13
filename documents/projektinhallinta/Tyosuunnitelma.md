@@ -1,6 +1,6 @@
 # Työsuunnitelma
 
-1. Tavoitteet ja lopputulokset
+## 1. Tavoitteet ja lopputulokset
 
 Projektin tavoite on tutkia erilaisia verkkoselaimissa käytettäviä varmenteita, niiden hyötyjä, mahdollisia haittoja sekä haavoittuvuuksia.
 
@@ -21,11 +21,11 @@ Projektin lopputuloksena on tarkoitus kehittää ohjeitus, jota voidaan soveltaa
 
 Projektin loppuraportissa tullaan esittelemään, miten tutkimuksessa esiin tulleet tulokset on huomioitu ohjeistuksessa.
 
-2. Tehtävän rajaus
+## 2. Tehtävän rajaus
 
 Projektin ei ole tarkoitus tutkia tai testava yritysten itse luomia varmenteita, tai varmenteita jotka eivät kuulu public key infrastructuren (PKI) piiriin. Projektin tarkoitus on tutkia ja testata vain varmenteita, joita käytetään verkkoselainpohjaisissa ratkaisuissa.
 
-3. Riskit ja niihin varautuminen
+## 3. Riskit ja niihin varautuminen
 
 Koska projektissa on monta liikkuva osaa, on näiden osalta myös useampia riskejä jotka uhkaavat projektin onnistunutta loppuun saattamista.
 
@@ -35,17 +35,17 @@ Työaika sekä sen rajallisuus on myös haaste projektin valmistumiselle. Jotta 
 
 Koska varmenteiden käyttö tietoturvaratkaisuissa on yleistä, tulee tutkiminen rajata vain projektin tavoitteiden mukaisesti. Muuten on vaarana, että projektin tutkiminen eksyy tavoitteestaan, mikä johtaa epäoptimaaliseen työajan käyttöön.
 
-4. Työryhmä  
+## 4. Työryhmä  
 Työryhmän jäsenet:
 - Tatu Erkinjuntti
 - Jussi Isosomppi
 - Eino Kupias
 - Saku Kähäri
 
-5. Työympäristö
+## 5. Työympäristö
 Projekti tullaan pääsääntöisesti suorittamaan Haaga-Helian Pasilan kampuksen tiloissa.
 
-6. Aikataulu
+## 6. Aikataulu
 
 Viikko|Työtehtävät
 ------|-----------
@@ -58,9 +58,9 @@ vko 48|Testaus
 vko 49|Ohjeistuksen sekä projektin loppuraportin valmistelua.
 vko 50|Projektin loppuraportin esitteleminen.
 
-7. Tehtävät, työmäärät ja lopputulokset
+## 7. Tehtävät, työmäärät ja lopputulokset
 
-Vaihe 1  
+### Vaihe 1  
 
 |Tehtävät|Työmäärät|Lopputulokset|
 |--------|---------|-------------|
@@ -71,7 +71,7 @@ Vaihe 1
 |Kahden varmennemenetelmän vertailu, haitat sekä hyödyt|15 tuntia| varmennemenetelmien haitat sekä hyödyt selvitetty|
 |Ongelmakohtien tunnistaminen varmennemenetelmistä|20 tuntia| Varmenteiden ongelmakohdat tunnistettu|
 
-Vaihe 2
+### Vaihe 2
 Alustavasti toiseen vaiheeseen suunnitellut tehtävät:
 
 |Tehtävät|Työmäärät|Lopputulokset|
@@ -81,6 +81,6 @@ Alustavasti toiseen vaiheeseen suunnitellut tehtävät:
 |Oheistuksen laatiminen|12.5 tuntia|Valmis ohjeitus|
 |Loppuraportin laatiminen|12.5 tuntia|Valmis loppuraportti|
 
-8. Dokumentointi- ja versionhallintamenettelyt
+## 8. Dokumentointi- ja versionhallintamenettelyt
 
 Kaikki projektiin liittyvä dokumentointi tallenetaan, sekä jaetaan käyttäen projektin omaa Git repository:a. Tämä ylläpitää myös versionhallinan projektin dokumenteista.
