@@ -1,6 +1,6 @@
 # Verkkovarmenteet yrityskäytössä
 *Tietoturvan hallinnan harjoitustyö, Haaga-Helia 2018*  
-*[Tatu Erkinjuntti](https://github.com/tatue), [Jussi Isosomppi](https://github.com/jisosomppi), [Eino Kupias](https://github.com/einokupias), [Saku Kähäri](https://github.com/nauskis)*
+*[Tatu Erkinjuntti](https://github.com/tatue), [Jussi Isosomppi](https://github.com/jisosomppi), [Eino Kupias](https://github.com/einokupias), [Saku Kähäri](https://github.com/nauskis)*  
 *Lisätietoa kurssista [Haaga-Helian opinto-oppaassa](http://www.haaga-helia.fi/fi/opinto-opas/opintojaksokuvaukset/ICT4TN026?userLang=fi)*
 
 ## Projektin kuvaus
