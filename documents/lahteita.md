@@ -94,5 +94,6 @@
 * https://medium.com/@alexeysamoshkin/how-ssl-certificate-revocation-is-broken-in-practice-af3b63b9cb3
 * [SSLScan + muista](https://www.hackeroyale.com/hack-ssl-sites-using-sslscan/)
 * https://lists.gnupg.org/pipermail/gnupg-devel/2009-January/024757.html  (GPG vs x509)
-* [Moxie Marlinspike, muutama kiinnostava työkalu](https://moxie.org/)
+* [Moxie Marlinspike](https://moxie.org/) Muutama kiinnostava työkalu = SSLSniff, SSLStripp
 * https://www.owasp.org/images/7/7a/SSL_Spoofing.pdf
+
