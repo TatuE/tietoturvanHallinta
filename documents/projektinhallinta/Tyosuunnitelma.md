@@ -62,8 +62,8 @@ vko 50|Projektin loppuraportin esitteleminen.
 
 Vaihe 1  
 
-|Tehtävät|Työmäärät|Lopputulokset|  
-|--------|---------|-------------|  
+|Tehtävät|Työmäärät|Lopputulokset|
+|--------|---------|-------------|
 |Public key infrastructure tutkiminen|10 tuntia|parempi tietämys PKI:a|
 |Käytettävien salakirjoitusmenetelmien tutkiminen (PGP, X.509)|10  tuntia|Parempi ymmärrys käytettävistä salakirjoitusmenetelmistä|
 |Web of Trust tutkiminen|10 tuntia|parempi tietämys WOT:a|
@@ -74,12 +74,12 @@ Vaihe 1
 Vaihe 2
 Alustavasti toiseen vaiheeseen suunnitellut tehtävät:
 
-|Tehtävät|Työmäärät|Lopputulokset|  
-|--------|---------|-------------|  
-Suoritettaviena testien suunittelu | 25 tuntia | valmis testi suunnitelma
-Testien toteutus | 50 tuntia | valitut testit suoritettu
-Oheistuksen laatiminen	| 12.5 tuntia | Valmis ohjeitus
-loppuraportin laatiminen | 12.5 tuntia	| valmis loppuraportti		
+|Tehtävät|Työmäärät|Lopputulokset|
+|--------|---------|-------------|
+|Suoritettaviena testien suunittelu|25 tuntia|Valmis testisuunnitelma|
+|Testien toteutus|50 tuntia|Valitut testit suoritettu|
+|Oheistuksen laatiminen|12.5 tuntia|Valmis ohjeitus|
+|Loppuraportin laatiminen|12.5 tuntia|Valmis loppuraportti|
 
 8. Dokumentointi- ja versionhallintamenettelyt
 
