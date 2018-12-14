@@ -20,4 +20,4 @@
 
 ## KUVA!!!!
 
-![WoT](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/WoT.jpg?token=AdzIIc9cSxiiVBu2IvdguWbHfgvsEZD8ks5b89L0wA%3D%3D)
+![WoT](https://raw.githubusercontent.com/TatuE/tietoturvanHallinta/master/documents/kuvat/WoT.jpg)
