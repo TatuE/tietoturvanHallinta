@@ -17,7 +17,5 @@
 * luottamaus-suhde muodostetaan "henkilökohtaisesti" tunnettujen henkilöiden välillä 
 * Chain-of-trustissa yhden linkin häiriö vaikuttaa koko ketjuun
 	* Web of (chain of) Trustissa yhden linkin häiriö ei vaukuta koko ketjuun välttämättä millään tavalla, käytetään muita allekirjoitettuja ketjuja
-
-## KUVA!!!!
-
+	
 ![WoT](https://github.com/TatuE/tietoturvanHallinta/blob/master/documents/kuvat/WoT.jpg)
