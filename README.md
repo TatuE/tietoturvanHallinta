@@ -4,7 +4,7 @@
 *Lisätietoa kurssista [Haaga-Helian opinto-oppaassa](http://www.haaga-helia.fi/fi/opinto-opas/opintojaksokuvaukset/ICT4TN026?userLang=fi)*
 
 ## Projektin kuvaus
-Ryhmämme valitsi projektin aiheeksi tarjottujen joukosta Suojatut yhteydet ja varmenteet. Alun hahmottelun jälkeen päädyimme tuottamaan PK-yritykselle suunnatun ohjeistuksen varmenteiden käytölle niin verkossa tapahtuvassa liiketoiminnassa, kuin päivittäisessä työskentelyssäkin. Ohjeistuksen ohella päätimme toteuttaa testausta, jonka avulla osoitettaisiin ohjeistuksen asiasisällön paikkansapitävyyttä. 
+Ryhmämme valitsi projektin aiheeksi tarjottujen joukosta *Suojatut yhteydet ja varmenteet*. Alun hahmottelun jälkeen päädyimme tuottamaan PK-yritykselle suunnatun ohjeistuksen varmenteiden käytölle niin verkossa tapahtuvassa liiketoiminnassa, kuin päivittäisessä työskentelyssäkin. Ohjeistuksen ohella päätimme toteuttaa testausta, jonka avulla osoitettaisiin ohjeistuksen asiasisällön paikkansapitävyyttä. 
 
 Projektin alkupuolella ryhmämme teki laajaa tutkimusta verkkovarmenteista aihekokonaisuutena, sekä pureutui tarkemmin sen yksittäisiin osa-alueisiin. Pyrimme jo tässä vaiheessa löytämään sopivia testauskohteita projektin toiseen vaiheeseen. Tutkimusvaiheessa kerätyt lähdeaineistot löytyvät [**täältä**](https://github.com/TatuE/tietoturvanHallinta/blob/master/documents/lahteita.md).
 
